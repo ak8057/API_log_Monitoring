@@ -1,0 +1,11 @@
+filebeat.inputs:
+  - type: filestream
+    enabled: true
+    paths:
+      - /logs/api_logs.json 
+    json.keys_under_root: true
+    json.overwrite_keys: true
+    json.add_error_key: true  
+
+output.logstash:
+  hosts: ["logstash:5044"]

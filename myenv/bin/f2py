@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/abhaykumar/codeit/projects/Machine Learning/API_LOG/myenv/bin/python3.10" "$0" "$@"
-' '''
+#!/Users/abhaykumar/codeit/projects/Machine_Learning/API_LOG/myenv/bin/python3.10
 # -*- coding: utf-8 -*-
 import re
 import sys

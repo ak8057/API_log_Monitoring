@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/Users/abhaykumar/codeit/projects/Machine Learning/API_LOG/myenv'
+VIRTUAL_ENV=/Users/abhaykumar/codeit/projects/Machine_Learning/API_LOG/myenv
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
