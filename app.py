@@ -11,6 +11,11 @@ import os
 
 app = FastAPI()
 
+
+load_dotenv()
+
+ENVIRONMENT = os.getenv("ENVIRONMENT", "unknown")
+
 # CORS
 app.add_middleware(
     CORSMiddleware,
@@ -54,6 +59,7 @@ async def log_request_response(request: Request, response_data, status_code, res
         "request_body": body,
         "response_body": response_data,
         "status_code": status_code,
+        "environment": ENVIRONMENT, 
         "response_time_ms": response_time
     }
 

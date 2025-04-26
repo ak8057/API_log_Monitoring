@@ -7,6 +7,7 @@ from sklearn.ensemble import IsolationForest
 
 # Load API logs
 def load_logs():
+    
     logs = []
     with open("api_logs.json", "r") as f:
         for line in f:
