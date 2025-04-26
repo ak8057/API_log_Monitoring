@@ -1,0 +1,32 @@
+
+
+{
+    "email_alerts": {
+        "enabled": true,
+        "smtp_host": "smtp.gmail.com",
+        "smtp_port": 587,
+        "smtp_username": "nakendrake@gmail.com",
+        "smtp_password": "nqza lvvg nqqf fbcy",
+        "sender_email": "nakendrake@gmail.com",
+        "recipient_emails": [
+            "nakendrake@gmail.com"
+        ]
+    },
+
+    "slack_alerts": {
+        "enabled": false,
+        "webhook_url": "https://hooks.slack.com/services/YOUR_WEBHOOK_URL"
+    },
+    "pagerduty_alerts": {
+        "enabled": false,
+        "integration_key": "YOUR_PAGERDUTY_INTEGRATION_KEY"
+    },
+    "telegram_alerts": {
+        "enabled": false,
+        "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+        "chat_ids": [
+            "CHAT_ID_1",
+            "CHAT_ID_2"
+        ]
+    }
+}

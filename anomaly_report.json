@@ -1,0 +1,1234 @@
+{
+  "total_logs": 441,
+  "response_time_anomalies": [
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "POST",
+      "timestamp": "2025-04-24 11:05:02.069991",
+      "response_time": 1665.27,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.142762843179126
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-24 11:05:08.208016",
+      "response_time": 1531.03,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 0.838449212045924
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "POST",
+      "timestamp": "2025-04-24 12:24:29.684692",
+      "response_time": 1707.76,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.1482059627700203
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "POST",
+      "timestamp": "2025-04-24 12:24:31.897751",
+      "response_time": 1685.05,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.1164546240685964
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:24:39.004301",
+      "response_time": 1920.54,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.543149642497793
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:24:42.299003",
+      "response_time": 1728.11,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.2210780343402385
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "GET",
+      "timestamp": "2025-04-24 12:24:47.872982",
+      "response_time": 1578.87,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 0.9366962210161645
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-24 12:24:50.183600",
+      "response_time": 1566.08,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 0.8998817595074731
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "PUT",
+      "timestamp": "2025-04-24 12:24:54.769939",
+      "response_time": 1563.69,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 0.9086621147757177
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "GET",
+      "timestamp": "2025-04-24 12:25:00.734247",
+      "response_time": 1835.96,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.3909786891640576
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:25:09.962524",
+      "response_time": 1717.08,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.2362367204396552
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:25:28.952455",
+      "response_time": 1876.83,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.4699918708791957
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "GET",
+      "timestamp": "2025-04-24 12:25:31.769497",
+      "response_time": 1959.53,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.6084075129029431
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:25:34.536344",
+      "response_time": 1928.38,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.534889232983058
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-24 12:25:39.537720",
+      "response_time": 1939.15,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.5537659387223128
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "GET",
+      "timestamp": "2025-04-24 12:25:50.818576",
+      "response_time": 1895.2,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.5208878433508581
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "GET",
+      "timestamp": "2025-04-24 12:25:55.416315",
+      "response_time": 1687.96,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.1836993858357832
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:26:09.658103",
+      "response_time": 1688.5,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.184673635859344
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:26:13.265608",
+      "response_time": 1860.17,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.4561951726260318
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "POST",
+      "timestamp": "2025-04-24 12:26:25.276112",
+      "response_time": 1596.84,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 0.9537951734851406
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:26:31.343370",
+      "response_time": 1773.46,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.2772834133807012
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:26:33.913542",
+      "response_time": 1592.43,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.0113473400010335
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:26:43.045980",
+      "response_time": 1880.28,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.471602283127551
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 12:26:46.021684",
+      "response_time": 1680.1,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.0997259552725467
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "PUT",
+      "timestamp": "2025-04-24 12:26:49.064192",
+      "response_time": 1682.49,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.1117976655725101
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-24 12:26:55.572995",
+      "response_time": 1803.85,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.3166240365383584
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "POST",
+      "timestamp": "2025-04-24 12:26:57.875059",
+      "response_time": 1581.5,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 0.9756957214369543
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "POST",
+      "timestamp": "2025-04-24 12:27:02.719739",
+      "response_time": 1912.76,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.5306874440466458
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-24 12:27:05.999105",
+      "response_time": 1752.77,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.2270955194389026
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "POST",
+      "timestamp": "2025-04-24 12:27:10.959002",
+      "response_time": 1988.26,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.6927491033466426
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "PUT",
+      "timestamp": "2025-04-24 12:27:30.409809",
+      "response_time": 1764.85,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.2616207521887857
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "POST",
+      "timestamp": "2025-04-24 12:27:33.633888",
+      "response_time": 1776.06,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.34264647301302
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "GET",
+      "timestamp": "2025-04-24 12:27:41.893843",
+      "response_time": 1763.45,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.3198959307961649
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "GET",
+      "timestamp": "2025-04-24 12:27:44.184434",
+      "response_time": 1687.61,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.1830679274871787
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-24 12:27:53.810989",
+      "response_time": 1563.26,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 0.8949391123222643
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "GET",
+      "timestamp": "2025-04-24 16:03:09.503610",
+      "response_time": 1950.0,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.5924570767664703
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "POST",
+      "timestamp": "2025-04-24 16:03:12.967483",
+      "response_time": 1904.22,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.5738684786047876
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "POST",
+      "timestamp": "2025-04-24 16:03:19.393555",
+      "response_time": 1989.98,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.6593719179769835
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "GET",
+      "timestamp": "2025-04-24 16:03:27.720514",
+      "response_time": 1828.94,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.4380508086535686
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 16:03:32.304394",
+      "response_time": 1506.06,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 0.7946839992038446
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "PUT",
+      "timestamp": "2025-04-24 16:03:43.463387",
+      "response_time": 1734.11,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.266961679516027
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-24 16:03:47.063275",
+      "response_time": 1677.71,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.0955369741474938
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "POST",
+      "timestamp": "2025-04-24 16:03:50.851009",
+      "response_time": 1799.73,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.3094028640550037
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "POST",
+      "timestamp": "2025-04-24 16:03:54.281038",
+      "response_time": 1514.55,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 0.8708388366030398
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "GET",
+      "timestamp": "2025-04-24 16:04:08.009329",
+      "response_time": 1825.96,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.3930168607363285
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-24 16:04:14.571297",
+      "response_time": 1736.3,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.1982283566231617
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "GET",
+      "timestamp": "2025-04-24 16:04:20.959007",
+      "response_time": 1589.49,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 0.9563090147100743
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "POST",
+      "timestamp": "2025-04-24 16:04:30.818021",
+      "response_time": 1589.07,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 0.9883656901203854
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 16:04:39.210362",
+      "response_time": 1861.92,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.4450368863257004
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "DELETE",
+      "timestamp": "2025-04-24 17:18:29.537305",
+      "response_time": 1753.95,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.2643266460680942
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:40:13.685990",
+      "response_time": 1957.21,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.611547524183769
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:40:35.922666",
+      "response_time": 1813.07,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.4094186829611421
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:40:43.138473",
+      "response_time": 1609.9,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.0232290253483745
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:40:49.526893",
+      "response_time": 1677.58,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.1365055749513637
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:41:01.923064",
+      "response_time": 1714.7,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.1986336116130507
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:41:07.236028",
+      "response_time": 1992.45,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.6635059764509696
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:41:18.600805",
+      "response_time": 1772.96,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.2763738511744342
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:41:21.255819",
+      "response_time": 1724.12,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.1768803272913024
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:41:26.660286",
+      "response_time": 1955.58,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.582562993067341
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:41:29.494194",
+      "response_time": 1687.43,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.1207841401704268
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:41:41.023793",
+      "response_time": 1993.1,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.6483247385953674
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:41:49.005097",
+      "response_time": 1559.48,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 0.9008871749027082
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:41:56.314683",
+      "response_time": 1607.24,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 0.989089343153285
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:42:05.684122",
+      "response_time": 1867.79,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.470267629118272
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:42:08.236743",
+      "response_time": 1660.25,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.1337059262934308
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:42:15.652151",
+      "response_time": 1898.79,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.5640718533678704
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:42:18.467190",
+      "response_time": 1645.51,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.044526444797014
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:42:46.948656",
+      "response_time": 1647.86,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.0432185278785282
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:42:50.476050",
+      "response_time": 1553.12,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 0.9281958916832183
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:43:35.124006",
+      "response_time": 1843.57,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.4048222259434389
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:43:39.045691",
+      "response_time": 1998.24,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.673196745100516
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:43:45.801359",
+      "response_time": 1800.58,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.3461456080102052
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:43:48.263608",
+      "response_time": 1731.44,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.2266514815946412
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:43:53.119804",
+      "response_time": 1932.61,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.5667970636354396
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:43:58.449590",
+      "response_time": 1572.48,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 0.9753542141305921
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:44:07.528575",
+      "response_time": 1667.69,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.0848746242670115
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:44:13.641855",
+      "response_time": 1855.75,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.4864205181566528
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:44:32.135657",
+      "response_time": 1992.86,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.6641921966834934
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:44:36.053355",
+      "response_time": 1933.55,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.5685070405832213
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:44:46.865722",
+      "response_time": 1687.29,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.1369240074844966
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:44:49.891749",
+      "response_time": 1813.9,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.3508488046235643
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:45:13.895423",
+      "response_time": 1768.5,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.2886790957832759
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:45:20.347081",
+      "response_time": 1513.91,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 0.8167294528093502
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:45:29.970240",
+      "response_time": 1520.02,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 0.8807076285083689
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:45:32.275289",
+      "response_time": 1590.14,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.0072157982344516
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:45:34.867094",
+      "response_time": 1869.09,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.472668441905662
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:45:40.257314",
+      "response_time": 1699.76,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.2049885530172972
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:45:42.597476",
+      "response_time": 1532.77,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 0.8394383585279642
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:45:45.588780",
+      "response_time": 1507.74,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 0.8522430278979988
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:45:58.205431",
+      "response_time": 1626.26,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.0242150810118689
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:46:07.320199",
+      "response_time": 1502.93,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 0.7891980113706166
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:46:14.348101",
+      "response_time": 1745.04,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.2135470574737734
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:46:18.040588",
+      "response_time": 1819.32,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.3437384875862945
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:46:27.686322",
+      "response_time": 1904.6,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.5164707388235665
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:46:33.354267",
+      "response_time": 1989.43,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.670159712755605
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:46:41.310430",
+      "response_time": 1608.36,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 0.9769459728713866
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:46:44.938410",
+      "response_time": 1819.21,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.3435456892918363
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:46:47.082403",
+      "response_time": 1569.56,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 0.9557116492995473
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:46:57.181741",
+      "response_time": 1621.29,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.0004672515254476
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:47:01.507355",
+      "response_time": 1724.58,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.205790398901247
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:47:07.648899",
+      "response_time": 1569.16,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 0.9052801117523113
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:47:27.911388",
+      "response_time": 1673.49,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.1575930935377738
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:47:31.300768",
+      "response_time": 1887.1,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.4625372912080863
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:47:36.188108",
+      "response_time": 1616.26,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.0057472903396376
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:47:48.633530",
+      "response_time": 1509.47,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 0.861673669714727
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:48:07.139847",
+      "response_time": 1666.9,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.076590159937527
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:48:17.827221",
+      "response_time": 1928.66,
+      "mean_response_time": 1052.657441860465,
+      "z_score": 1.5353799922780431
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:48:28.359895",
+      "response_time": 1514.22,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 0.8056936006754641
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:48:32.042909",
+      "response_time": 1781.16,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.2912906713572108
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:48:47.861773",
+      "response_time": 1660.39,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.1339585096328728
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:48:50.956382",
+      "response_time": 1899.17,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.5647574367177837
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:49:03.525240",
+      "response_time": 1631.47,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.0817820083710599
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:49:09.315387",
+      "response_time": 1874.09,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.4819023372417777
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:49:18.912380",
+      "response_time": 1918.17,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.5405289071184534
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:49:51.600828",
+      "response_time": 1777.7,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.3038913029521402
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "POST",
+      "timestamp": "2025-04-26 13:49:54.565298",
+      "response_time": 1600.4,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.0073288004484275
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/submit",
+      "method": "GET",
+      "timestamp": "2025-04-26 13:50:01.522799",
+      "response_time": 1640.7,
+      "mean_response_time": 998.5453932584269,
+      "z_score": 1.0747792281818862
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/update",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:50:04.034454",
+      "response_time": 1815.98,
+      "mean_response_time": 1031.8679775280898,
+      "z_score": 1.414668808088109
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/authenticate",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:50:19.998909",
+      "response_time": 1643.73,
+      "mean_response_time": 1071.3181318681318,
+      "z_score": 1.041288403342704
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "PUT",
+      "timestamp": "2025-04-26 13:50:25.781040",
+      "response_time": 1640.77,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.0510118452772765
+    },
+    {
+      "type": "Response Time Anomaly",
+      "endpoint": "/fetch",
+      "method": "DELETE",
+      "timestamp": "2025-04-26 13:50:32.021523",
+      "response_time": 1917.54,
+      "mean_response_time": 1071.6646511627907,
+      "z_score": 1.5621448877126227
+    }
+  ],
+  "error_pattern_anomalies": [
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/authenticate",
+      "method": "DELETE",
+      "total_requests": 23,
+      "error_requests": 5,
+      "error_rate": 0.21739130434782608,
+      "max_consecutive_errors": 3
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/authenticate",
+      "method": "POST",
+      "total_requests": 26,
+      "error_requests": 8,
+      "error_rate": 0.3076923076923077,
+      "max_consecutive_errors": 5
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/authenticate",
+      "method": "PUT",
+      "total_requests": 30,
+      "error_requests": 12,
+      "error_rate": 0.4,
+      "max_consecutive_errors": 9
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/delete",
+      "method": "GET",
+      "total_requests": 20,
+      "error_requests": 5,
+      "error_rate": 0.25,
+      "max_consecutive_errors": 3
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/delete",
+      "method": "PUT",
+      "total_requests": 30,
+      "error_requests": 11,
+      "error_rate": 0.36666666666666664,
+      "max_consecutive_errors": 7
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/fetch",
+      "method": "GET",
+      "total_requests": 23,
+      "error_requests": 9,
+      "error_rate": 0.391304347826087,
+      "max_consecutive_errors": 3
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/submit",
+      "method": "DELETE",
+      "total_requests": 26,
+      "error_requests": 10,
+      "error_rate": 0.38461538461538464,
+      "max_consecutive_errors": 5
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/submit",
+      "method": "PUT",
+      "total_requests": 20,
+      "error_requests": 8,
+      "error_rate": 0.4,
+      "max_consecutive_errors": 5
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/update",
+      "method": "DELETE",
+      "total_requests": 25,
+      "error_requests": 13,
+      "error_rate": 0.52,
+      "max_consecutive_errors": 7
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/update",
+      "method": "GET",
+      "total_requests": 21,
+      "error_requests": 6,
+      "error_rate": 0.2857142857142857,
+      "max_consecutive_errors": 3
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/update",
+      "method": "POST",
+      "total_requests": 21,
+      "error_requests": 6,
+      "error_rate": 0.2857142857142857,
+      "max_consecutive_errors": 3
+    },
+    {
+      "type": "Error Pattern Anomaly",
+      "endpoint": "/update",
+      "method": "PUT",
+      "total_requests": 22,
+      "error_requests": 7,
+      "error_rate": 0.3181818181818182,
+      "max_consecutive_errors": 4
+    }
+  ],
+  "traffic_anomalies": [
+    {
+      "type": "Traffic Anomaly",
+      "timestamp": "2025-04-24 12:25:00",
+      "request_count": 77,
+      "mean_requests": 0.7217675941080196,
+      "z_score": 9.208155980322495
+    },
+    {
+      "type": "Traffic Anomaly",
+      "timestamp": "2025-04-24 16:00:00",
+      "request_count": 52,
+      "mean_requests": 0.7217675941080196,
+      "z_score": 6.190205875198131
+    },
+    {
+      "type": "Traffic Anomaly",
+      "timestamp": "2025-04-26 13:40:00",
+      "request_count": 127,
+      "mean_requests": 0.7217675941080196,
+      "z_score": 15.244056190571223
+    },
+    {
+      "type": "Traffic Anomaly",
+      "timestamp": "2025-04-26 13:45:00",
+      "request_count": 129,
+      "mean_requests": 0.7217675941080196,
+      "z_score": 15.48549219898117
+    }
+  ]
+}

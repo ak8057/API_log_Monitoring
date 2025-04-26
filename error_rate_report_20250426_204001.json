@@ -1,0 +1,85 @@
+{
+  "overall_analysis": {
+    "total_requests": 1618,
+    "error_requests": 296,
+    "error_rate": 0.18294190358467244,
+    "max_consecutive_errors": 11,
+    "is_anomalous": true
+  },
+  "endpoint_analysis": {
+    "/authenticate": {
+      "total_requests": 315,
+      "error_requests": 57,
+      "error_rate": 0.18095238095238095,
+      "max_consecutive_errors": 10,
+      "is_anomalous": true
+    },
+    "/delete": {
+      "total_requests": 293,
+      "error_requests": 54,
+      "error_rate": 0.18430034129692832,
+      "max_consecutive_errors": 5,
+      "is_anomalous": true
+    },
+    "/fetch": {
+      "total_requests": 347,
+      "error_requests": 67,
+      "error_rate": 0.1930835734870317,
+      "max_consecutive_errors": 3,
+      "is_anomalous": false
+    },
+    "/submit": {
+      "total_requests": 324,
+      "error_requests": 53,
+      "error_rate": 0.16358024691358025,
+      "max_consecutive_errors": 6,
+      "is_anomalous": true
+    },
+    "/update": {
+      "total_requests": 339,
+      "error_requests": 65,
+      "error_rate": 0.19174041297935104,
+      "max_consecutive_errors": 6,
+      "is_anomalous": true
+    }
+  },
+  "method_analysis": {
+    "DELETE": {
+      "total_requests": 424,
+      "error_requests": 79,
+      "error_rate": 0.18632075471698112,
+      "max_consecutive_errors": 6,
+      "is_anomalous": true
+    },
+    "GET": {
+      "total_requests": 396,
+      "error_requests": 69,
+      "error_rate": 0.17424242424242425,
+      "max_consecutive_errors": 3,
+      "is_anomalous": false
+    },
+    "POST": {
+      "total_requests": 374,
+      "error_requests": 61,
+      "error_rate": 0.16310160427807488,
+      "max_consecutive_errors": 4,
+      "is_anomalous": false
+    },
+    "PUT": {
+      "total_requests": 424,
+      "error_requests": 87,
+      "error_rate": 0.20518867924528303,
+      "max_consecutive_errors": 12,
+      "is_anomalous": true
+    }
+  },
+  "environment_analysis": {
+    "on-prem": {
+      "total_requests": 1458,
+      "error_requests": 208,
+      "error_rate": 0.14266117969821673,
+      "max_consecutive_errors": 3,
+      "is_anomalous": false
+    }
+  }
+}
