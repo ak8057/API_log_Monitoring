@@ -109,6 +109,8 @@ services:
       - logstash
     command: ["--strict.perms=false"]
 
+    
+
 volumes:
   dev-elasticsearch:
   dev-kibana:

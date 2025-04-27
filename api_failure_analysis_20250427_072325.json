@@ -1,0 +1,5313 @@
+{
+  "status": "success",
+  "timestamp": "2025-04-27T07:23:25.760863",
+  "total_requests": 1992,
+  "error_requests": 286,
+  "error_rate": 0.14357429718875503,
+  "error_patterns": {
+    "error_count": 286,
+    "error_rate": 0.14357429718875503,
+    "error_types": {
+      "auth_failure": 55,
+      "unclassified": 71,
+      "server_error": 68,
+      "resource_unavailable": 44,
+      "invalid_input": 48
+    },
+    "error_percentages": {
+      "auth_failure": 19.230769230769234,
+      "unclassified": 24.825174825174827,
+      "server_error": 23.776223776223777,
+      "resource_unavailable": 15.384615384615385,
+      "invalid_input": 16.783216783216783
+    },
+    "pattern_details": {
+      "auth_failure": [
+        {
+          "timestamp": "2025-04-26 13:40:17.883966",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:42:31.265649",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:42:48.217990",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:44:15.127215",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:46:33.354267",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:47:38.424840",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:47:43.341490",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:48:14.396956",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:50:54.439457",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:54:44.671419",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:54:59.480172",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:55:01.509323",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 13:55:49.217301",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:14:24.217626",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:15:39.524485",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:16:04.220371",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:16:10.444380",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:16:12.501691",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:16:27.722630",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:17:13.464766",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:18:14.659269",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:18:16.618925",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:20:02.428632",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:20:40.483926",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:26:21.535049",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:27:03.300078",
+          "endpoint": "/authenticate",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:27:09.320948",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:29:12.924987",
+          "endpoint": "/update",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:30:07.024542",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:31:44.678542",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:32:42.018453",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:33:21.812876",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:34:30.479780",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:39:12.323278",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:39:43.173176",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:40:14.350278",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:41:54.015643",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:45:52.246815",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:46:29.449705",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:48:06.254802",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 14:50:54.999412",
+          "endpoint": "/authenticate",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 18:02:32.756693",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 18:03:36.988686",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 18:04:17.819879",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 18:13:38.053857",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 18:27:23.106649",
+          "endpoint": "/submit",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 18:27:37.001466",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 18:29:10.961912",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 19:01:09.961670",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 19:03:01.049838",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 19:07:56.756810",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 19:08:43.038208",
+          "endpoint": "/authenticate",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 19:09:04.441022",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 23:50:32.436665",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        },
+        {
+          "timestamp": "2025-04-26 23:51:18.408048",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 403,
+          "message": "forbidden: access denied"
+        }
+      ],
+      "unclassified": [
+        {
+          "timestamp": "2025-04-26 13:40:25.184343",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:41:41.023793",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:42:24.288654",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:42:57.184405",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:45:58.205431",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:46:57.181741",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:47:04.128128",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:48:00.214625",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:48:43.115167",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:48:57.222867",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:49:29.444144",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:52:12.623089",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:52:35.564502",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:53:09.167918",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:53:16.210030",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:53:37.229810",
+          "endpoint": "/submit",
+          "method": "GET",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:54:13.571443",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:54:16.332384",
+          "endpoint": "/update",
+          "method": "POST",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:55:03.011024",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:55:08.357070",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:56:21.956887",
+          "endpoint": "/update",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 13:57:12.422869",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:14:41.182100",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:17:32.375297",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:17:38.511058",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:19:25.376011",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:19:58.171961",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:20:20.841461",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:21:01.554178",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:22:51.715821",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:27:35.207963",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:28:03.304182",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:29:27.141420",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:29:35.046347",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:31:50.737153",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:33:39.296160",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:38:52.791923",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:41:52.284067",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:44:21.326084",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:45:09.519931",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:46:01.380271",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:46:19.355703",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:46:57.325249",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:47:31.720045",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:47:34.569987",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:47:52.644249",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:47:53.920231",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:48:02.885375",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:48:55.021877",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:49:09.968186",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 14:49:16.165371",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 18:02:22.974652",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 18:02:50.453730",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 18:02:52.896661",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 18:03:18.129137",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 18:04:29.213888",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 18:13:59.427121",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 18:26:54.164927",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 18:27:59.496081",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 18:28:20.330400",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 18:28:49.180287",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 19:02:17.860572",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 19:03:21.332011",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 19:21:44.251735",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 19:21:53.374959",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 23:49:38.939591",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 23:51:31.488687",
+          "endpoint": "/authenticate",
+          "method": "DELETE",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 23:51:51.552750",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 23:52:58.642418",
+          "endpoint": "/update",
+          "method": "POST",
+          "status_code": 401,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-26 23:53:30.746088",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 502,
+          "message": "unknown error"
+        },
+        {
+          "timestamp": "2025-04-27 01:16:29.409181",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 401,
+          "message": "unknown error"
+        }
+      ],
+      "server_error": [
+        {
+          "timestamp": "2025-04-26 13:42:05.684122",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 13:42:12.380300",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 13:42:27.586873",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 13:42:33.109570",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 13:44:53.017682",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 13:45:17.296202",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 13:45:40.257314",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 13:46:30.638623",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 13:47:39.513606",
+          "endpoint": "/submit",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 13:49:06.030873",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 13:49:36.579277",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 13:50:25.781040",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 13:50:28.861096",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 13:50:45.450337",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 13:50:53.223208",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 13:51:17.489093",
+          "endpoint": "/update",
+          "method": "POST",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 13:53:22.906234",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 13:55:09.338911",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 13:55:42.797586",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:14:27.012752",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:15:24.268754",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:18:25.315952",
+          "endpoint": "/update",
+          "method": "POST",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:19:00.692590",
+          "endpoint": "/submit",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:19:41.353191",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:21:07.100969",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:21:46.809857",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:23:17.019872",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:24:28.952542",
+          "endpoint": "/authenticate",
+          "method": "DELETE",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:25:03.524247",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:27:59.394393",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:28:12.077825",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:28:56.076040",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:30:34.481839",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:30:44.252185",
+          "endpoint": "/submit",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:31:38.883188",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:33:29.534172",
+          "endpoint": "/authenticate",
+          "method": "DELETE",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:33:56.140596",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:34:10.361883",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:36:03.605450",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:37:05.259531",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:37:41.441543",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:37:51.291343",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:41:42.313137",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:42:38.844715",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:45:37.226697",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:48:38.251914",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:49:00.549620",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:49:26.436284",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 14:49:42.640918",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:50:09.599024",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 14:51:04.914035",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 18:02:13.512796",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 18:02:43.931928",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 18:03:31.376691",
+          "endpoint": "/update",
+          "method": "POST",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 18:13:51.980044",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 18:14:13.291859",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 18:27:52.994865",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 18:28:25.964860",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 18:28:58.507994",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 18:29:40.750105",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 19:01:01.409721",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 19:02:23.145128",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 19:03:33.632260",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 19:08:51.738165",
+          "endpoint": "/submit",
+          "method": "GET",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 19:09:11.138971",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-26 23:48:25.572111",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 500,
+          "message": "internal server error"
+        },
+        {
+          "timestamp": "2025-04-26 23:49:04.271621",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        },
+        {
+          "timestamp": "2025-04-27 01:16:24.236321",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 503,
+          "message": "service unavailable: try later"
+        }
+      ],
+      "resource_unavailable": [
+        {
+          "timestamp": "2025-04-26 13:42:43.974644",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 13:42:46.948656",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 13:43:55.741990",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 13:48:32.042909",
+          "endpoint": "/authenticate",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 13:49:10.668686",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 13:50:12.312137",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 13:52:20.895968",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 13:54:01.714039",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 13:55:14.897176",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:16:24.914356",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:16:38.608873",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:20:25.898607",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:22:02.024208",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:22:16.505603",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:23:38.848356",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:26:18.073085",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:30:05.116502",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:32:09.236741",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:34:47.001134",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:34:58.347603",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:35:31.562121",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:35:51.865308",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:36:13.645819",
+          "endpoint": "/delete",
+          "method": "PUT",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:37:53.886132",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:38:41.090756",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:39:06.870681",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:46:15.658570",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:47:47.123976",
+          "endpoint": "/submit",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:48:15.143153",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:48:17.544834",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:52:06.682501",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 14:52:18.171745",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 18:02:37.963603",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 18:03:35.469620",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 18:03:44.456660",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 18:13:09.619050",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 19:21:57.747273",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 19:22:03.670817",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 23:49:29.442770",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 23:51:12.264303",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 23:51:15.359290",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 23:52:19.628956",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-26 23:52:22.729017",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        },
+        {
+          "timestamp": "2025-04-27 01:16:32.093462",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 404,
+          "message": "not found: resource missing"
+        }
+      ],
+      "invalid_input": [
+        {
+          "timestamp": "2025-04-26 13:43:04.101850",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 13:43:48.263608",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 13:44:25.913557",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 13:45:50.585181",
+          "endpoint": "/submit",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 13:47:12.397353",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 13:53:07.415599",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 13:53:25.877153",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 13:55:39.542336",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 13:56:17.956495",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:15:08.149279",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:15:27.378759",
+          "endpoint": "/fetch",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:18:38.707925",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:19:05.088075",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:20:12.629521",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:20:55.108926",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:22:14.319999",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:28:45.928558",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:31:04.929133",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:32:06.207001",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:32:19.172216",
+          "endpoint": "/delete",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:34:55.305474",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:37:16.252488",
+          "endpoint": "/update",
+          "method": "PUT",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:38:38.494894",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:40:26.865749",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:43:39.844305",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:47:08.266387",
+          "endpoint": "/authenticate",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:48:10.487708",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:48:52.160759",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:50:03.455552",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 14:51:41.341519",
+          "endpoint": "/fetch",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 18:02:16.110918",
+          "endpoint": "/update",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 18:02:57.516158",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 18:02:59.938972",
+          "endpoint": "/submit",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 18:03:59.697309",
+          "endpoint": "/submit",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 18:13:00.719918",
+          "endpoint": "/authenticate",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 18:13:55.589826",
+          "endpoint": "/fetch",
+          "method": "PUT",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 18:29:49.875376",
+          "endpoint": "/fetch",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 18:29:51.062354",
+          "endpoint": "/submit",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 19:01:54.343424",
+          "endpoint": "/delete",
+          "method": "DELETE",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 19:02:34.179190",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 19:08:30.445809",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 19:09:57.704596",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 19:21:45.038311",
+          "endpoint": "/delete",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 19:22:04.549131",
+          "endpoint": "/submit",
+          "method": "PUT",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 19:22:06.914873",
+          "endpoint": "/update",
+          "method": "POST",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 23:49:17.166051",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 23:49:46.101584",
+          "endpoint": "/update",
+          "method": "GET",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        },
+        {
+          "timestamp": "2025-04-26 23:50:50.879327",
+          "endpoint": "/authenticate",
+          "method": "PUT",
+          "status_code": 400,
+          "message": "bad request: invalid input"
+        }
+      ]
+    }
+  },
+  "response_time_clusters": {
+    "cluster_count": 1,
+    "clusters": {
+      "cluster_0": {
+        "size": 1992,
+        "avg_response_time": 1032.9301506024096,
+        "min_response_time": 50.98,
+        "max_response_time": 1998.95,
+        "slow_endpoints": [
+          {
+            "endpoint": "    /authenticate\nName: 0, dtype: object",
+            "method": "    DELETE\nName: 0, dtype: object",
+            "count": 87,
+            "mean_response_time": 1020.1502298850576
+          },
+          {
+            "endpoint": "    /authenticate\nName: 1, dtype: object",
+            "method": "    GET\nName: 1, dtype: object",
+            "count": 89,
+            "mean_response_time": 1065.3925842696628
+          },
+          {
+            "endpoint": "    /authenticate\nName: 2, dtype: object",
+            "method": "    POST\nName: 2, dtype: object",
+            "count": 109,
+            "mean_response_time": 1107.6254128440366
+          },
+          {
+            "endpoint": "    /authenticate\nName: 3, dtype: object",
+            "method": "    PUT\nName: 3, dtype: object",
+            "count": 97,
+            "mean_response_time": 1090.9256701030927
+          },
+          {
+            "endpoint": "    /delete\nName: 4, dtype: object",
+            "method": "    DELETE\nName: 4, dtype: object",
+            "count": 96,
+            "mean_response_time": 1025.7451041666666
+          },
+          {
+            "endpoint": "    /delete\nName: 5, dtype: object",
+            "method": "    GET\nName: 5, dtype: object",
+            "count": 98,
+            "mean_response_time": 1055.0263265306123
+          },
+          {
+            "endpoint": "    /delete\nName: 6, dtype: object",
+            "method": "    POST\nName: 6, dtype: object",
+            "count": 79,
+            "mean_response_time": 1008.3835443037975
+          },
+          {
+            "endpoint": "    /delete\nName: 7, dtype: object",
+            "method": "    PUT\nName: 7, dtype: object",
+            "count": 83,
+            "mean_response_time": 1104.1213253012047
+          },
+          {
+            "endpoint": "    /fetch\nName: 8, dtype: object",
+            "method": "    DELETE\nName: 8, dtype: object",
+            "count": 114,
+            "mean_response_time": 996.8871929824561
+          },
+          {
+            "endpoint": "    /fetch\nName: 9, dtype: object",
+            "method": "    GET\nName: 9, dtype: object",
+            "count": 109,
+            "mean_response_time": 1050.3404587155962
+          },
+          {
+            "endpoint": "    /fetch\nName: 10, dtype: object",
+            "method": "    POST\nName: 10, dtype: object",
+            "count": 113,
+            "mean_response_time": 967.1116814159292
+          },
+          {
+            "endpoint": "    /fetch\nName: 11, dtype: object",
+            "method": "    PUT\nName: 11, dtype: object",
+            "count": 106,
+            "mean_response_time": 1080.4838679245283
+          },
+          {
+            "endpoint": "    /submit\nName: 12, dtype: object",
+            "method": "    DELETE\nName: 12, dtype: object",
+            "count": 111,
+            "mean_response_time": 1045.516126126126
+          },
+          {
+            "endpoint": "    /submit\nName: 13, dtype: object",
+            "method": "    GET\nName: 13, dtype: object",
+            "count": 111,
+            "mean_response_time": 1072.1755855855856
+          },
+          {
+            "endpoint": "    /submit\nName: 14, dtype: object",
+            "method": "    POST\nName: 14, dtype: object",
+            "count": 91,
+            "mean_response_time": 931.9071428571428
+          },
+          {
+            "endpoint": "    /submit\nName: 15, dtype: object",
+            "method": "    PUT\nName: 15, dtype: object",
+            "count": 100,
+            "mean_response_time": 1010.3878
+          },
+          {
+            "endpoint": "    /update\nName: 16, dtype: object",
+            "method": "    DELETE\nName: 16, dtype: object",
+            "count": 106,
+            "mean_response_time": 1024.0777358490566
+          },
+          {
+            "endpoint": "    /update\nName: 17, dtype: object",
+            "method": "    GET\nName: 17, dtype: object",
+            "count": 89,
+            "mean_response_time": 970.4796629213483
+          },
+          {
+            "endpoint": "    /update\nName: 18, dtype: object",
+            "method": "    POST\nName: 18, dtype: object",
+            "count": 96,
+            "mean_response_time": 1029.2788541666666
+          },
+          {
+            "endpoint": "    /update\nName: 19, dtype: object",
+            "method": "    PUT\nName: 19, dtype: object",
+            "count": 108,
+            "mean_response_time": 997.3651851851852
+          }
+        ]
+      }
+    }
+  },
+  "sequence_patterns": {
+    "client_count": 1,
+    "common_error_patterns": {
+      "DELETE /fetch -> GET /fetch -> POST /fetch": 2,
+      "DELETE /fetch -> PUT /fetch -> GET /fetch": 2,
+      "DELETE /submit -> DELETE /submit -> DELETE /update": 2,
+      "POST /submit -> GET /update -> PUT /fetch": 2,
+      "PUT /submit -> DELETE /update -> POST /authenticate": 2,
+      "PUT /submit -> DELETE /update -> GET /update": 2,
+      "DELETE /authenticate -> GET /fetch -> PUT /submit": 1,
+      "PUT /authenticate -> GET /update -> DELETE /submit": 1,
+      "PUT /authenticate -> POST /update -> GET /delete": 1,
+      "POST /fetch -> POST /authenticate -> GET /fetch": 1,
+      "PUT /fetch -> PUT /fetch -> GET /fetch": 1,
+      "DELETE /update -> DELETE /update -> GET /fetch": 1,
+      "DELETE /update -> GET /fetch -> DELETE /fetch": 1,
+      "GET /fetch -> POST /fetch -> PUT /delete": 1,
+      "POST /update -> DELETE /submit -> DELETE /update": 1,
+      "DELETE /submit -> DELETE /update -> DELETE /delete": 1,
+      "DELETE /update -> DELETE /delete -> DELETE /update": 1,
+      "PUT /update -> DELETE /authenticate -> GET /fetch": 1,
+      "DELETE /delete -> POST /authenticate -> POST /submit": 1,
+      "DELETE /submit -> POST /fetch -> PUT /submit": 1,
+      "PUT /authenticate -> POST /authenticate -> GET /authenticate": 1,
+      "GET /submit -> DELETE /update -> POST /fetch": 1,
+      "POST /submit -> POST /authenticate -> GET /fetch": 1,
+      "POST /authenticate -> DELETE /submit -> POST /authenticate": 1,
+      "GET /submit -> GET /delete -> DELETE /update": 1,
+      "POST /fetch -> POST /submit -> PUT /update": 1,
+      "PUT /submit -> PUT /submit -> GET /submit": 1,
+      "POST /submit -> POST /fetch -> GET /fetch": 1,
+      "DELETE /submit -> DELETE /authenticate -> POST /authenticate": 1,
+      "DELETE /authenticate -> POST /authenticate -> PUT /authenticate": 1,
+      "PUT /delete -> POST /submit -> POST /authenticate": 1,
+      "DELETE /fetch -> POST /update -> PUT /authenticate": 1,
+      "DELETE /delete -> POST /update -> PUT /authenticate": 1,
+      "PUT /fetch -> GET /fetch -> GET /submit": 1,
+      "GET /submit -> DELETE /update -> PUT /submit": 1,
+      "POST /submit -> PUT /update -> GET /update": 1,
+      "POST /delete -> POST /authenticate -> POST /fetch": 1,
+      "DELETE /authenticate -> POST /authenticate -> DELETE /authenticate": 1,
+      "GET /submit -> PUT /fetch -> DELETE /fetch": 1,
+      "DELETE /update -> DELETE /update -> DELETE /update": 1,
+      "DELETE /update -> POST /fetch -> GET /delete": 1,
+      "POST /update -> PUT /update -> PUT /update": 1,
+      "GET /fetch -> GET /fetch -> GET /authenticate": 1,
+      "PUT /fetch -> PUT /delete -> DELETE /delete": 1,
+      "DELETE /authenticate -> GET /submit -> PUT /fetch": 1,
+      "GET /submit -> PUT /fetch -> PUT /fetch": 1,
+      "PUT /authenticate -> GET /fetch -> PUT /submit": 1,
+      "GET /update -> PUT /fetch -> GET /authenticate": 1,
+      "POST /authenticate -> PUT /delete -> POST /update": 1,
+      "POST /submit -> GET /authenticate -> PUT /fetch": 1,
+      "POST /submit -> PUT /delete -> DELETE /fetch": 1,
+      "PUT /delete -> POST /update -> DELETE /submit": 1,
+      "GET /update -> POST /authenticate -> POST /authenticate": 1,
+      "POST /authenticate -> POST /authenticate -> DELETE /delete": 1,
+      "PUT /authenticate -> PUT /submit -> PUT /update": 1,
+      "PUT /delete -> PUT /update -> DELETE /fetch": 1,
+      "PUT /update -> DELETE /fetch -> GET /update": 1,
+      "PUT /submit -> GET /delete -> GET /submit": 1,
+      "GET /delete -> GET /delete -> PUT /fetch": 1,
+      "GET /submit -> POST /delete -> POST /delete": 1,
+      "POST /delete -> POST /delete -> POST /update": 1,
+      "PUT /update -> PUT /delete -> POST /fetch": 1,
+      "DELETE /submit -> POST /update -> GET /fetch": 1,
+      "POST /update -> GET /fetch -> PUT /delete": 1,
+      "GET /fetch -> PUT /delete -> PUT /update": 1,
+      "POST /authenticate -> PUT /fetch -> DELETE /fetch": 1,
+      "PUT /fetch -> DELETE /fetch -> DELETE /delete": 1,
+      "DELETE /delete -> POST /delete -> PUT /authenticate": 1,
+      "PUT /delete -> DELETE /submit -> DELETE /submit": 1,
+      "GET /submit -> DELETE /delete -> DELETE /update": 1,
+      "GET /authenticate -> DELETE /authenticate -> PUT /fetch": 1,
+      "DELETE /fetch -> GET /delete -> POST /update": 1,
+      "DELETE /fetch -> DELETE /submit -> GET /authenticate": 1,
+      "PUT /fetch -> POST /delete -> PUT /update": 1,
+      "PUT /update -> DELETE /update -> PUT /submit": 1,
+      "GET /authenticate -> PUT /submit -> GET /authenticate": 1,
+      "GET /authenticate -> GET /fetch -> DELETE /submit": 1,
+      "DELETE /fetch -> GET /update -> PUT /fetch": 1,
+      "GET /update -> PUT /fetch -> POST /fetch": 1,
+      "PUT /submit -> GET /update -> POST /delete": 1,
+      "DELETE /submit -> GET /submit -> GET /fetch": 1,
+      "PUT /update -> POST /fetch -> DELETE /fetch": 1,
+      "POST /fetch -> DELETE /fetch -> POST /submit": 1,
+      "GET /submit -> POST /delete -> GET /delete": 1,
+      "POST /delete -> GET /delete -> DELETE /fetch": 1,
+      "GET /update -> GET /authenticate -> POST /authenticate": 1,
+      "DELETE /fetch -> PUT /update -> DELETE /delete": 1,
+      "GET /submit -> PUT /update -> POST /delete": 1,
+      "POST /submit -> POST /authenticate -> PUT /update": 1,
+      "POST /update -> PUT /update -> PUT /delete": 1,
+      "PUT /update -> PUT /delete -> PUT /delete": 1,
+      "DELETE /authenticate -> GET /authenticate -> POST /update": 1,
+      "POST /submit -> DELETE /delete -> POST /submit": 1,
+      "GET /update -> PUT /update -> GET /submit": 1,
+      "GET /submit -> POST /fetch -> GET /delete": 1,
+      "PUT /authenticate -> DELETE /delete -> GET /update": 1,
+      "DELETE /delete -> GET /fetch -> PUT /authenticate": 1,
+      "GET /submit -> DELETE /update -> POST /authenticate": 1,
+      "POST /authenticate -> DELETE /authenticate -> GET /fetch": 1,
+      "DELETE /submit -> POST /delete -> GET /delete": 1,
+      "POST /fetch -> DELETE /fetch -> PUT /update": 1,
+      "PUT /update -> DELETE /update -> DELETE /fetch": 1,
+      "POST /fetch -> DELETE /authenticate -> DELETE /submit": 1,
+      "GET /fetch -> DELETE /fetch -> PUT /fetch": 1,
+      "PUT /fetch -> POST /update -> PUT /delete": 1,
+      "DELETE /delete -> PUT /delete -> DELETE /fetch": 1,
+      "POST /submit -> POST /authenticate -> PUT /fetch": 1,
+      "DELETE /submit -> POST /fetch -> PUT /update": 1,
+      "POST /fetch -> PUT /update -> GET /update": 1,
+      "GET /authenticate -> DELETE /update -> PUT /submit": 1,
+      "DELETE /submit -> DELETE /authenticate -> DELETE /update": 1,
+      "DELETE /update -> PUT /fetch -> POST /authenticate": 1,
+      "PUT /delete -> POST /authenticate -> DELETE /authenticate": 1,
+      "GET /submit -> GET /update -> POST /fetch": 1,
+      "PUT /fetch -> DELETE /delete -> GET /update": 1,
+      "GET /update -> POST /delete -> PUT /authenticate": 1,
+      "DELETE /fetch -> POST /delete -> DELETE /authenticate": 1,
+      "DELETE /authenticate -> GET /submit -> GET /fetch": 1,
+      "POST /update -> GET /update -> PUT /update": 1,
+      "DELETE /fetch -> GET /delete -> GET /fetch": 1,
+      "GET /fetch -> PUT /update -> DELETE /submit": 1,
+      "PUT /submit -> DELETE /fetch -> GET /fetch": 1,
+      "GET /fetch -> DELETE /submit -> DELETE /fetch": 1,
+      "DELETE /fetch -> POST /fetch -> DELETE /update": 1,
+      "GET /update -> DELETE /update -> POST /update": 1,
+      "DELETE /update -> DELETE /authenticate -> PUT /submit": 1,
+      "PUT /authenticate -> GET /fetch -> DELETE /submit": 1,
+      "DELETE /authenticate -> DELETE /submit -> GET /authenticate": 1,
+      "DELETE /submit -> GET /authenticate -> POST /submit": 1,
+      "POST /fetch -> POST /delete -> PUT /fetch": 1,
+      "DELETE /fetch -> DELETE /update -> GET /submit": 1,
+      "PUT /submit -> DELETE /submit -> POST /delete": 1,
+      "POST /authenticate -> DELETE /authenticate -> DELETE /fetch": 1,
+      "DELETE /fetch -> GET /submit -> POST /delete": 1,
+      "DELETE /fetch -> POST /authenticate -> PUT /update": 1,
+      "GET /delete -> GET /submit -> DELETE /fetch": 1,
+      "GET /submit -> DELETE /fetch -> DELETE /fetch": 1,
+      "PUT /fetch -> DELETE /delete -> GET /delete": 1,
+      "DELETE /submit -> DELETE /fetch -> GET /authenticate": 1,
+      "POST /submit -> DELETE /authenticate -> PUT /update": 1,
+      "POST /authenticate -> GET /submit -> DELETE /authenticate": 1,
+      "PUT /update -> DELETE /update -> DELETE /update": 1,
+      "DELETE /update -> POST /update -> PUT /update": 1,
+      "GET /update -> DELETE /submit -> GET /fetch": 1,
+      "GET /authenticate -> GET /authenticate -> GET /delete": 1,
+      "GET /fetch -> PUT /submit -> DELETE /update": 1,
+      "PUT /submit -> PUT /delete -> DELETE /update": 1,
+      "PUT /delete -> DELETE /update -> GET /update": 1,
+      "GET /update -> POST /update -> POST /authenticate": 1,
+      "PUT /authenticate -> GET /authenticate -> DELETE /fetch": 1,
+      "POST /authenticate -> POST /update -> PUT /delete": 1,
+      "PUT /fetch -> DELETE /fetch -> PUT /delete": 1,
+      "GET /authenticate -> POST /fetch -> DELETE /submit": 1,
+      "GET /delete -> POST /authenticate -> PUT /update": 1,
+      "PUT /update -> GET /fetch -> GET /delete": 1,
+      "PUT /fetch -> POST /delete -> POST /fetch": 1,
+      "POST /delete -> POST /fetch -> PUT /submit": 1,
+      "PUT /update -> DELETE /submit -> POST /delete": 1,
+      "DELETE /submit -> POST /delete -> GET /authenticate": 1,
+      "POST /fetch -> PUT /fetch -> PUT /fetch": 1,
+      "DELETE /fetch -> POST /fetch -> DELETE /fetch": 1,
+      "GET /authenticate -> PUT /authenticate -> POST /authenticate": 1,
+      "PUT /fetch -> POST /delete -> PUT /submit": 1,
+      "DELETE /update -> POST /update -> DELETE /submit": 1,
+      "PUT /fetch -> DELETE /update -> GET /update": 1,
+      "POST /fetch -> GET /fetch -> POST /fetch": 1,
+      "GET /fetch -> POST /fetch -> GET /fetch": 1,
+      "GET /authenticate -> GET /fetch -> POST /fetch": 1,
+      "POST /authenticate -> POST /update -> GET /authenticate": 1,
+      "GET /submit -> DELETE /submit -> POST /delete": 1,
+      "DELETE /fetch -> GET /submit -> GET /fetch": 1,
+      "PUT /update -> POST /update -> PUT /fetch": 1,
+      "DELETE /fetch -> POST /delete -> PUT /submit": 1,
+      "GET /update -> PUT /submit -> GET /delete": 1,
+      "PUT /fetch -> PUT /fetch -> GET /authenticate": 1,
+      "GET /authenticate -> GET /fetch -> PUT /authenticate": 1,
+      "POST /update -> PUT /submit -> POST /authenticate": 1,
+      "GET /delete -> PUT /fetch -> DELETE /delete": 1,
+      "GET /authenticate -> DELETE /authenticate -> GET /authenticate": 1,
+      "POST /authenticate -> POST /update -> PUT /fetch": 1,
+      "POST /update -> PUT /fetch -> POST /delete": 1,
+      "GET /authenticate -> GET /fetch -> GET /submit": 1,
+      "PUT /authenticate -> DELETE /authenticate -> GET /update": 1,
+      "DELETE /authenticate -> GET /update -> PUT /submit": 1,
+      "GET /delete -> GET /fetch -> PUT /update": 1,
+      "PUT /update -> PUT /submit -> PUT /delete": 1,
+      "PUT /delete -> PUT /update -> DELETE /submit": 1,
+      "GET /delete -> POST /update -> DELETE /update": 1,
+      "POST /update -> DELETE /update -> POST /fetch": 1,
+      "POST /update -> POST /fetch -> DELETE /delete": 1,
+      "POST /fetch -> DELETE /delete -> PUT /authenticate": 1,
+      "PUT /authenticate -> PUT /fetch -> GET /delete": 1,
+      "PUT /update -> PUT /authenticate -> GET /authenticate": 1,
+      "GET /submit -> POST /authenticate -> POST /fetch": 1,
+      "DELETE /submit -> GET /delete -> PUT /delete": 1,
+      "GET /fetch -> PUT /update -> DELETE /delete": 1,
+      "PUT /submit -> GET /update -> POST /authenticate": 1,
+      "DELETE /fetch -> POST /update -> GET /delete": 1,
+      "PUT /delete -> DELETE /delete -> DELETE /authenticate": 1,
+      "GET /submit -> DELETE /fetch -> POST /authenticate": 1,
+      "PUT /fetch -> POST /update -> DELETE /fetch": 1,
+      "GET /update -> PUT /authenticate -> PUT /submit": 1,
+      "PUT /authenticate -> GET /authenticate -> GET /authenticate": 1,
+      "GET /authenticate -> GET /authenticate -> DELETE /update": 1,
+      "DELETE /fetch -> GET /delete -> POST /authenticate": 1,
+      "DELETE /authenticate -> PUT /fetch -> GET /update": 1,
+      "GET /update -> POST /update -> DELETE /submit": 1,
+      "GET /delete -> PUT /fetch -> PUT /delete": 1,
+      "DELETE /fetch -> POST /submit -> PUT /submit": 1,
+      "POST /submit -> PUT /submit -> PUT /update": 1,
+      "PUT /update -> POST /delete -> POST /submit": 1,
+      "POST /delete -> POST /submit -> POST /submit": 1,
+      "DELETE /submit -> DELETE /delete -> POST /submit": 1,
+      "PUT /delete -> GET /delete -> POST /update": 1,
+      "POST /update -> GET /authenticate -> DELETE /fetch": 1,
+      "GET /authenticate -> DELETE /fetch -> DELETE /update": 1,
+      "PUT /fetch -> GET /submit -> GET /update": 1,
+      "DELETE /delete -> POST /submit -> GET /submit": 1,
+      "DELETE /submit -> POST /fetch -> DELETE /delete": 1,
+      "PUT /authenticate -> PUT /authenticate -> GET /fetch": 1,
+      "DELETE /submit -> PUT /fetch -> PUT /submit": 1,
+      "DELETE /fetch -> PUT /delete -> DELETE /update": 1,
+      "POST /fetch -> GET /delete -> PUT /delete": 1,
+      "PUT /delete -> GET /submit -> PUT /fetch": 1,
+      "PUT /fetch -> DELETE /delete -> DELETE /update": 1,
+      "PUT /update -> GET /authenticate -> GET /update": 1,
+      "POST /delete -> POST /fetch -> POST /fetch": 1,
+      "PUT /fetch -> GET /submit -> GET /submit": 1,
+      "DELETE /submit -> POST /submit -> POST /submit": 1,
+      "POST /authenticate -> POST /submit -> GET /fetch": 1,
+      "POST /delete -> POST /fetch -> GET /update": 1,
+      "POST /fetch -> DELETE /submit -> PUT /submit": 1,
+      "PUT /fetch -> PUT /delete -> DELETE /fetch": 1,
+      "POST /delete -> PUT /authenticate -> DELETE /delete": 1,
+      "PUT /delete -> POST /update -> POST /authenticate": 1,
+      "POST /fetch -> DELETE /authenticate -> PUT /authenticate": 1,
+      "GET /submit -> DELETE /fetch -> PUT /fetch": 1,
+      "PUT /submit -> POST /submit -> GET /fetch": 1,
+      "POST /submit -> GET /fetch -> DELETE /submit": 1,
+      "GET /update -> POST /authenticate -> PUT /submit": 1,
+      "POST /authenticate -> PUT /authenticate -> GET /delete": 1,
+      "DELETE /fetch -> DELETE /update -> DELETE /delete": 1,
+      "POST /update -> GET /submit -> POST /fetch": 1,
+      "POST /delete -> PUT /submit -> DELETE /delete": 1,
+      "POST /delete -> PUT /fetch -> GET /update": 1,
+      "POST /update -> PUT /submit -> GET /authenticate": 1,
+      "PUT /update -> GET /authenticate -> PUT /fetch": 1,
+      "POST /update -> PUT /submit -> POST /fetch": 1,
+      "DELETE /authenticate -> DELETE /submit -> PUT /submit": 1,
+      "PUT /update -> DELETE /fetch -> DELETE /authenticate": 1,
+      "GET /authenticate -> DELETE /fetch -> GET /submit": 1,
+      "PUT /fetch -> PUT /submit -> POST /delete": 1,
+      "GET /fetch -> GET /update -> DELETE /delete": 1,
+      "DELETE /delete -> PUT /update -> POST /delete": 1,
+      "GET /fetch -> DELETE /delete -> POST /submit": 1,
+      "DELETE /delete -> POST /submit -> POST /delete": 1,
+      "DELETE /update -> PUT /delete -> DELETE /delete": 1,
+      "POST /fetch -> POST /delete -> POST /submit": 1,
+      "DELETE /update -> PUT /submit -> PUT /fetch": 1,
+      "PUT /submit -> PUT /fetch -> PUT /submit": 1,
+      "POST /fetch -> DELETE /submit -> POST /update": 1,
+      "DELETE /submit -> POST /update -> GET /delete": 1,
+      "GET /authenticate -> GET /delete -> POST /fetch": 1,
+      "POST /fetch -> POST /submit -> PUT /authenticate": 1,
+      "DELETE /authenticate -> GET /fetch -> GET /authenticate": 1,
+      "PUT /fetch -> GET /update -> PUT /authenticate": 1,
+      "GET /authenticate -> POST /authenticate -> GET /update": 1,
+      "PUT /update -> DELETE /submit -> DELETE /delete": 1,
+      "GET /update -> POST /authenticate -> PUT /authenticate": 1,
+      "GET /fetch -> GET /submit -> GET /delete": 1,
+      "GET /delete -> PUT /submit -> DELETE /update": 1,
+      "PUT /authenticate -> POST /submit -> DELETE /authenticate": 1,
+      "POST /submit -> PUT /update -> DELETE /delete": 1,
+      "DELETE /delete -> POST /delete -> PUT /submit": 1,
+      "POST /delete -> PUT /submit -> POST /fetch": 1,
+      "GET /authenticate -> GET /fetch -> POST /update": 1,
+      "POST /authenticate -> PUT /fetch -> POST /authenticate": 1,
+      "GET /authenticate -> POST /update -> POST /submit": 1,
+      "POST /fetch -> POST /delete -> DELETE /fetch": 1,
+      "PUT /fetch -> DELETE /update -> PUT /update": 1
+    },
+    "error_sequences": [
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 13:40:17.883966"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 13:40:25.184343"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 401,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 13:41:41.023793"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 503,
+        "preceding_calls": [
+          "POST /fetch",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:42:05.684122"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 503,
+        "preceding_calls": [
+          "PUT /fetch",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 13:42:12.380300"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 502,
+        "preceding_calls": [
+          "DELETE /update",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 13:42:24.288654"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 503,
+        "preceding_calls": [
+          "DELETE /update",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 13:42:27.586873"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 13:42:31.265649"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 500,
+        "preceding_calls": [
+          "GET /fetch",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 13:42:33.109570"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 404,
+        "preceding_calls": [
+          "POST /update",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 13:42:43.974644"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /submit",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 13:42:46.948656"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /update",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 13:42:48.217990"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 401,
+        "preceding_calls": [
+          "PUT /update",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:42:57.184405"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /delete",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:43:04.101850"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /submit",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 13:43:48.263608"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 404,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:43:55.741990"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "GET /submit",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 13:44:15.127215"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 400,
+        "preceding_calls": [
+          "POST /submit",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:44:25.913557"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 500,
+        "preceding_calls": [
+          "POST /authenticate",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 13:44:53.017682"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 503,
+        "preceding_calls": [
+          "GET /submit",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 13:45:17.296202"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 500,
+        "preceding_calls": [
+          "POST /fetch",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 13:45:40.257314"
+      },
+      {
+        "error_endpoint": "GET /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /submit",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 13:45:50.585181"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /submit",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 13:45:58.205431"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 500,
+        "preceding_calls": [
+          "DELETE /submit",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:46:30.638623"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:46:33.354267"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 401,
+        "preceding_calls": [
+          "PUT /delete",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 13:46:57.181741"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 502,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 13:47:04.128128"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /delete",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 13:47:12.397353"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 13:47:38.424840"
+      },
+      {
+        "error_endpoint": "GET /submit",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /fetch",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 13:47:39.513606"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 403,
+        "preceding_calls": [
+          "GET /submit",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 13:47:43.341490"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /submit",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 13:48:00.214625"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /delete",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:48:14.396956"
+      },
+      {
+        "error_endpoint": "DELETE /authenticate",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:48:32.042909"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /submit",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 13:48:43.115167"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 401,
+        "preceding_calls": [
+          "DELETE /submit",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 13:48:57.222867"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 500,
+        "preceding_calls": [
+          "DELETE /update",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 13:49:06.030873"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /update",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 13:49:10.668686"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /update",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 13:49:29.444144"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 503,
+        "preceding_calls": [
+          "GET /fetch",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 13:49:36.579277"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 404,
+        "preceding_calls": [
+          "PUT /fetch",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 13:50:12.312137"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 13:50:25.781040"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "GET /submit",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 13:50:28.861096"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 503,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 13:50:45.450337"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 503,
+        "preceding_calls": [
+          "POST /submit",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 13:50:53.223208"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 403,
+        "preceding_calls": [
+          "GET /update",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 13:50:54.439457"
+      },
+      {
+        "error_endpoint": "POST /update",
+        "status_code": 503,
+        "preceding_calls": [
+          "POST /authenticate",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 13:51:17.489093"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /submit",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:52:12.623089"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "POST /submit",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 13:52:20.895968"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "PUT /delete",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 13:52:35.564502"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /update",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:53:07.415599"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /authenticate",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:53:09.167918"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 502,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 13:53:16.210030"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 503,
+        "preceding_calls": [
+          "PUT /delete",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 13:53:22.906234"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /update",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 13:53:25.877153"
+      },
+      {
+        "error_endpoint": "GET /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "PUT /submit",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 13:53:37.229810"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /delete",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 13:54:01.714039"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /submit",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 13:54:13.571443"
+      },
+      {
+        "error_endpoint": "POST /update",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /delete",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 13:54:16.332384"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /update",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 13:54:44.671419"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /submit",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 13:54:59.480172"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /update",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 13:55:01.509323"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /fetch",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 13:55:03.011024"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /authenticate",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 13:55:08.357070"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /fetch",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 13:55:09.338911"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /delete",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 13:55:14.897176"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /delete",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 13:55:39.542336"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 503,
+        "preceding_calls": [
+          "DELETE /submit",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 13:55:42.797586"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 403,
+        "preceding_calls": [
+          "GET /submit",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 13:55:49.217301"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /authenticate",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 13:56:17.956495"
+      },
+      {
+        "error_endpoint": "POST /update",
+        "status_code": 401,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 13:56:21.956887"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 401,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 13:57:12.422869"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /fetch",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 14:14:24.217626"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /update",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:14:27.012752"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /authenticate",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 14:14:41.182100"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /authenticate",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 14:15:08.149279"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 14:15:24.268754"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /update",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 14:15:27.378759"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /submit",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 14:15:39.524485"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /submit",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 14:16:04.220371"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /update",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 14:16:10.444380"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /fetch",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 14:16:12.501691"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /submit",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 14:16:24.914356"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /delete",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 14:16:27.722630"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /update",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:16:38.608873"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 14:17:13.464766"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /submit",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 14:17:32.375297"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /submit",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:17:38.511058"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /update",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 14:18:14.659269"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /update",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 14:18:16.618925"
+      },
+      {
+        "error_endpoint": "POST /update",
+        "status_code": 500,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:18:25.315952"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "POST /submit",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 14:18:38.707925"
+      },
+      {
+        "error_endpoint": "GET /submit",
+        "status_code": 500,
+        "preceding_calls": [
+          "GET /update",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 14:19:00.692590"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /submit",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 14:19:05.088075"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 502,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 14:19:25.376011"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 503,
+        "preceding_calls": [
+          "DELETE /delete",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 14:19:41.353191"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /submit",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:19:58.171961"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /authenticate",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:20:02.428632"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /submit",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 14:20:12.629521"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /fetch",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 14:20:20.841461"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "PUT /update",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:20:25.898607"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /fetch",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:20:40.483926"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 14:20:55.108926"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 502,
+        "preceding_calls": [
+          "GET /fetch",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 14:21:01.554178"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /fetch",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:21:07.100969"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 503,
+        "preceding_calls": [
+          "DELETE /delete",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 14:21:46.809857"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "POST /submit",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:22:02.024208"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /submit",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 14:22:14.319999"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 404,
+        "preceding_calls": [
+          "POST /fetch",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 14:22:16.505603"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /authenticate",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:22:51.715821"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 503,
+        "preceding_calls": [
+          "DELETE /submit",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:23:17.019872"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /update",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 14:23:38.848356"
+      },
+      {
+        "error_endpoint": "DELETE /authenticate",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /delete",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:24:28.952542"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 503,
+        "preceding_calls": [
+          "GET /submit",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 14:25:03.524247"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 404,
+        "preceding_calls": [
+          "PUT /fetch",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 14:26:18.073085"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 403,
+        "preceding_calls": [
+          "GET /update",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 14:26:21.535049"
+      },
+      {
+        "error_endpoint": "DELETE /authenticate",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 14:27:03.300078"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 14:27:09.320948"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /update",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 14:27:35.207963"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 503,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 14:27:59.394393"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /fetch",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 14:28:03.304182"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /submit",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 14:28:12.077825"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /fetch",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 14:28:45.928558"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 503,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 14:28:56.076040"
+      },
+      {
+        "error_endpoint": "POST /update",
+        "status_code": 403,
+        "preceding_calls": [
+          "GET /update",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:29:12.924987"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "DELETE /update",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:29:27.141420"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 14:29:35.046347"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 14:30:05.116502"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /submit",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:30:07.024542"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "POST /fetch",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 14:30:34.481839"
+      },
+      {
+        "error_endpoint": "GET /submit",
+        "status_code": 500,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:30:44.252185"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /submit",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 14:31:04.929133"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "POST /authenticate",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:31:38.883188"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 14:31:44.678542"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 401,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:31:50.737153"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /delete",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 14:32:06.207001"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /submit",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 14:32:09.236741"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /fetch",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 14:32:19.172216"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /submit",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 14:32:42.018453"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /submit",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:33:21.812876"
+      },
+      {
+        "error_endpoint": "DELETE /authenticate",
+        "status_code": 503,
+        "preceding_calls": [
+          "POST /authenticate",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 14:33:29.534172"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 502,
+        "preceding_calls": [
+          "PUT /update",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:33:39.296160"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 500,
+        "preceding_calls": [
+          "DELETE /update",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:33:56.140596"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "GET /update",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 14:34:10.361883"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "GET /authenticate",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:34:30.479780"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /fetch",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 14:34:47.001134"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /submit",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 14:34:55.305474"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 404,
+        "preceding_calls": [
+          "PUT /delete",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:34:58.347603"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /update",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:35:31.562121"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:35:51.865308"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 500,
+        "preceding_calls": [
+          "POST /authenticate",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:36:03.605450"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 404,
+        "preceding_calls": [
+          "PUT /fetch",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 14:36:13.645819"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 503,
+        "preceding_calls": [
+          "GET /authenticate",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 14:37:05.259531"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /delete",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:37:16.252488"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 503,
+        "preceding_calls": [
+          "PUT /update",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 14:37:41.441543"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 503,
+        "preceding_calls": [
+          "PUT /fetch",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 14:37:51.291343"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 404,
+        "preceding_calls": [
+          "POST /delete",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 14:37:53.886132"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /update",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 14:38:38.494894"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /submit",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 14:38:41.090756"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /fetch",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 14:38:52.791923"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 14:39:06.870681"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 403,
+        "preceding_calls": [
+          "GET /authenticate",
+          "PUT /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:39:12.323278"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /fetch",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 14:39:43.173176"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /update",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:40:14.350278"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /submit",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:40:26.865749"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /fetch",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:41:42.313137"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /fetch",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 14:41:52.284067"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "GET /fetch",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 14:41:54.015643"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "GET /authenticate",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 14:42:38.844715"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 400,
+        "preceding_calls": [
+          "POST /authenticate",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:43:39.844305"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /submit",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 14:44:21.326084"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 502,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 14:45:09.519931"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /update",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:45:37.226697"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 14:45:52.246815"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 502,
+        "preceding_calls": [
+          "GET /update",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 14:46:01.380271"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 404,
+        "preceding_calls": [
+          "PUT /fetch",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 14:46:15.658570"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /authenticate",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 14:46:19.355703"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /update",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 14:46:29.449705"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 502,
+        "preceding_calls": [
+          "GET /delete",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 14:46:57.325249"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /authenticate",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:47:08.266387"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /authenticate",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:47:31.720045"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /update",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 14:47:34.569987"
+      },
+      {
+        "error_endpoint": "GET /submit",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /authenticate",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 14:47:47.123976"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 401,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:47:52.644249"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 14:47:53.920231"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 502,
+        "preceding_calls": [
+          "GET /delete",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 14:48:02.885375"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /update",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 14:48:06.254802"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /delete",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 14:48:10.487708"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /delete",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:48:15.143153"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "POST /update",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:48:17.544834"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 503,
+        "preceding_calls": [
+          "PUT /submit",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 14:48:38.251914"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 400,
+        "preceding_calls": [
+          "POST /update",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 14:48:52.160759"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /fetch",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 14:48:55.021877"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 503,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 14:49:00.549620"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 401,
+        "preceding_calls": [
+          "PUT /update",
+          "PUT /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:49:09.968186"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /submit",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:49:16.165371"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 503,
+        "preceding_calls": [
+          "DELETE /submit",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 14:49:26.436284"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 500,
+        "preceding_calls": [
+          "GET /fetch",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 14:49:42.640918"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /submit",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 14:50:03.455552"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 500,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:50:09.599024"
+      },
+      {
+        "error_endpoint": "DELETE /authenticate",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /delete",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 14:50:54.999412"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 503,
+        "preceding_calls": [
+          "GET /submit",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 14:51:04.914035"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /fetch",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 14:51:41.341519"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /update",
+          "PUT /authenticate"
+        ],
+        "timestamp": "2025-04-26 14:52:06.682501"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 14:52:18.171745"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 18:02:13.512796"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /authenticate",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 18:02:16.110918"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 502,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 18:02:22.974652"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 18:02:32.756693"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /update",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 18:02:37.963603"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 500,
+        "preceding_calls": [
+          "GET /delete",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 18:02:43.931928"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 502,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 18:02:50.453730"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /submit",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 18:02:52.896661"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /update",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 18:02:57.516158"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "POST /delete",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 18:02:59.938972"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "DELETE /submit",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 18:03:18.129137"
+      },
+      {
+        "error_endpoint": "POST /update",
+        "status_code": 503,
+        "preceding_calls": [
+          "PUT /delete",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 18:03:31.376691"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "POST /update",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 18:03:35.469620"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 403,
+        "preceding_calls": [
+          "GET /authenticate",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 18:03:36.988686"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 404,
+        "preceding_calls": [
+          "PUT /fetch",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 18:03:44.456660"
+      },
+      {
+        "error_endpoint": "GET /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /delete",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 18:03:59.697309"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /submit",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 18:04:17.819879"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 401,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "PUT /authenticate"
+        ],
+        "timestamp": "2025-04-26 18:04:29.213888"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /submit",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 18:13:00.719918"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /submit",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 18:13:09.619050"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 18:13:38.053857"
+      },
+      {
+        "error_endpoint": "PUT /delete",
+        "status_code": 503,
+        "preceding_calls": [
+          "POST /fetch",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 18:13:51.980044"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /delete",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 18:13:55.589826"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 502,
+        "preceding_calls": [
+          "PUT /fetch",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 18:13:59.427121"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /update",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 18:14:13.291859"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /delete",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 18:26:54.164927"
+      },
+      {
+        "error_endpoint": "GET /submit",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /fetch",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 18:27:23.106649"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 403,
+        "preceding_calls": [
+          "DELETE /submit",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 18:27:37.001466"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "POST /authenticate",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 18:27:52.994865"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /delete",
+          "POST /fetch"
+        ],
+        "timestamp": "2025-04-26 18:27:59.496081"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /fetch",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 18:28:20.330400"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /fetch",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 18:28:25.964860"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /delete",
+          "PUT /authenticate"
+        ],
+        "timestamp": "2025-04-26 18:28:49.180287"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 503,
+        "preceding_calls": [
+          "PUT /delete",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 18:28:58.507994"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /fetch",
+          "DELETE /authenticate"
+        ],
+        "timestamp": "2025-04-26 18:29:10.961912"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "GET /submit",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 18:29:40.750105"
+      },
+      {
+        "error_endpoint": "GET /fetch",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /submit",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 18:29:49.875376"
+      },
+      {
+        "error_endpoint": "DELETE /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "POST /submit",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 18:29:51.062354"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 500,
+        "preceding_calls": [
+          "GET /update",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 19:01:01.409721"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /authenticate",
+          "PUT /authenticate"
+        ],
+        "timestamp": "2025-04-26 19:01:09.961670"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /fetch",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 19:01:54.343424"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /update",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 19:02:17.860572"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 500,
+        "preceding_calls": [
+          "POST /delete",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 19:02:23.145128"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 400,
+        "preceding_calls": [
+          "POST /delete",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 19:02:34.179190"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /submit",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 19:03:01.049838"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /update",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 19:03:21.332011"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 500,
+        "preceding_calls": [
+          "PUT /update",
+          "GET /authenticate"
+        ],
+        "timestamp": "2025-04-26 19:03:33.632260"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 403,
+        "preceding_calls": [
+          "POST /update",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 19:07:56.756810"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 19:08:30.445809"
+      },
+      {
+        "error_endpoint": "DELETE /authenticate",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /update",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 19:08:43.038208"
+      },
+      {
+        "error_endpoint": "GET /submit",
+        "status_code": 503,
+        "preceding_calls": [
+          "GET /authenticate",
+          "DELETE /fetch"
+        ],
+        "timestamp": "2025-04-26 19:08:51.738165"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /fetch",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 19:09:04.441022"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 503,
+        "preceding_calls": [
+          "GET /fetch",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 19:09:11.138971"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /delete",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 19:09:57.704596"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /fetch",
+          "DELETE /delete"
+        ],
+        "timestamp": "2025-04-26 19:21:44.251735"
+      },
+      {
+        "error_endpoint": "POST /delete",
+        "status_code": 400,
+        "preceding_calls": [
+          "DELETE /delete",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 19:21:45.038311"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 401,
+        "preceding_calls": [
+          "DELETE /update",
+          "PUT /delete"
+        ],
+        "timestamp": "2025-04-26 19:21:53.374959"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 404,
+        "preceding_calls": [
+          "POST /fetch",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 19:21:57.747273"
+      },
+      {
+        "error_endpoint": "PUT /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /update",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 19:22:03.670817"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 400,
+        "preceding_calls": [
+          "PUT /submit",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 19:22:04.549131"
+      },
+      {
+        "error_endpoint": "POST /update",
+        "status_code": 400,
+        "preceding_calls": [
+          "POST /fetch",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 19:22:06.914873"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 500,
+        "preceding_calls": [
+          "DELETE /submit",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-26 23:48:25.572111"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 503,
+        "preceding_calls": [
+          "GET /authenticate",
+          "GET /delete"
+        ],
+        "timestamp": "2025-04-26 23:49:04.271621"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 400,
+        "preceding_calls": [
+          "POST /fetch",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 23:49:17.166051"
+      },
+      {
+        "error_endpoint": "GET /authenticate",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /authenticate",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 23:49:29.442770"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 502,
+        "preceding_calls": [
+          "PUT /fetch",
+          "GET /update"
+        ],
+        "timestamp": "2025-04-26 23:49:38.939591"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /authenticate",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 23:49:46.101584"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /update",
+          "DELETE /submit"
+        ],
+        "timestamp": "2025-04-26 23:50:32.436665"
+      },
+      {
+        "error_endpoint": "PUT /authenticate",
+        "status_code": 400,
+        "preceding_calls": [
+          "GET /update",
+          "POST /authenticate"
+        ],
+        "timestamp": "2025-04-26 23:50:50.879327"
+      },
+      {
+        "error_endpoint": "GET /delete",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /fetch",
+          "GET /submit"
+        ],
+        "timestamp": "2025-04-26 23:51:12.264303"
+      },
+      {
+        "error_endpoint": "DELETE /update",
+        "status_code": 404,
+        "preceding_calls": [
+          "GET /delete",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 23:51:15.359290"
+      },
+      {
+        "error_endpoint": "GET /update",
+        "status_code": 403,
+        "preceding_calls": [
+          "PUT /submit",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-26 23:51:18.408048"
+      },
+      {
+        "error_endpoint": "DELETE /authenticate",
+        "status_code": 502,
+        "preceding_calls": [
+          "PUT /authenticate",
+          "POST /submit"
+        ],
+        "timestamp": "2025-04-26 23:51:31.488687"
+      },
+      {
+        "error_endpoint": "DELETE /delete",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /submit",
+          "PUT /update"
+        ],
+        "timestamp": "2025-04-26 23:51:51.552750"
+      },
+      {
+        "error_endpoint": "PUT /submit",
+        "status_code": 404,
+        "preceding_calls": [
+          "DELETE /delete",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-26 23:52:19.628956"
+      },
+      {
+        "error_endpoint": "POST /fetch",
+        "status_code": 404,
+        "preceding_calls": [
+          "POST /delete",
+          "PUT /submit"
+        ],
+        "timestamp": "2025-04-26 23:52:22.729017"
+      },
+      {
+        "error_endpoint": "POST /update",
+        "status_code": 401,
+        "preceding_calls": [
+          "GET /authenticate",
+          "GET /fetch"
+        ],
+        "timestamp": "2025-04-26 23:52:58.642418"
+      },
+      {
+        "error_endpoint": "POST /authenticate",
+        "status_code": 502,
+        "preceding_calls": [
+          "POST /authenticate",
+          "PUT /fetch"
+        ],
+        "timestamp": "2025-04-26 23:53:30.746088"
+      },
+      {
+        "error_endpoint": "POST /submit",
+        "status_code": 503,
+        "preceding_calls": [
+          "GET /authenticate",
+          "POST /update"
+        ],
+        "timestamp": "2025-04-27 01:16:24.236321"
+      },
+      {
+        "error_endpoint": "DELETE /fetch",
+        "status_code": 401,
+        "preceding_calls": [
+          "POST /fetch",
+          "POST /delete"
+        ],
+        "timestamp": "2025-04-27 01:16:29.409181"
+      },
+      {
+        "error_endpoint": "PUT /update",
+        "status_code": 404,
+        "preceding_calls": [
+          "PUT /fetch",
+          "DELETE /update"
+        ],
+        "timestamp": "2025-04-27 01:16:32.093462"
+      }
+    ]
+  },
+  "periodic_failures": {
+    "hourly_error_rates": {
+      "0": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "1": {
+        "error_count": 3,
+        "request_count": 20,
+        "error_rate": 0.15
+      },
+      "2": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "3": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "4": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "5": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "6": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "7": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "8": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "9": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "10": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "11": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "12": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "13": {
+        "error_count": 72,
+        "request_count": 443,
+        "error_rate": 0.16252821670428894
+      },
+      "14": {
+        "error_count": 133,
+        "request_count": 1002,
+        "error_rate": 0.13273453093812376
+      },
+      "15": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "16": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "17": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "18": {
+        "error_count": 38,
+        "request_count": 214,
+        "error_rate": 0.17757009345794392
+      },
+      "19": {
+        "error_count": 23,
+        "request_count": 176,
+        "error_rate": 0.13068181818181818
+      },
+      "20": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "21": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "22": {
+        "error_count": 0,
+        "request_count": 0,
+        "error_rate": 0
+      },
+      "23": {
+        "error_count": 17,
+        "request_count": 137,
+        "error_rate": 0.12408759124087591
+      }
+    },
+    "problematic_hours": {},
+    "avg_error_rate": 0.14357429718875503
+  },
+  "dependency_correlations": {
+    "endpoint_correlations": {
+      "/fetch": {
+        "/submit": 26,
+        "/update": 25,
+        "/authenticate": 22,
+        "/delete": 21
+      },
+      "/submit": {
+        "/fetch": 26,
+        "/update": 20,
+        "/authenticate": 18,
+        "/delete": 16
+      },
+      "/update": {
+        "/fetch": 25,
+        "/submit": 20,
+        "/authenticate": 16,
+        "/delete": 18
+      },
+      "/authenticate": {
+        "/fetch": 22,
+        "/submit": 18,
+        "/delete": 18,
+        "/update": 16
+      },
+      "/delete": {
+        "/fetch": 21,
+        "/submit": 16,
+        "/authenticate": 18,
+        "/update": 18
+      }
+    },
+    "likely_dependencies": [
+      {
+        "source_endpoint": "/fetch",
+        "dependent_endpoint": "/submit",
+        "co_failure_count": 26
+      },
+      {
+        "source_endpoint": "/fetch",
+        "dependent_endpoint": "/update",
+        "co_failure_count": 25
+      },
+      {
+        "source_endpoint": "/fetch",
+        "dependent_endpoint": "/authenticate",
+        "co_failure_count": 22
+      },
+      {
+        "source_endpoint": "/fetch",
+        "dependent_endpoint": "/delete",
+        "co_failure_count": 21
+      },
+      {
+        "source_endpoint": "/submit",
+        "dependent_endpoint": "/fetch",
+        "co_failure_count": 26
+      },
+      {
+        "source_endpoint": "/submit",
+        "dependent_endpoint": "/update",
+        "co_failure_count": 20
+      },
+      {
+        "source_endpoint": "/submit",
+        "dependent_endpoint": "/authenticate",
+        "co_failure_count": 18
+      },
+      {
+        "source_endpoint": "/submit",
+        "dependent_endpoint": "/delete",
+        "co_failure_count": 16
+      },
+      {
+        "source_endpoint": "/update",
+        "dependent_endpoint": "/fetch",
+        "co_failure_count": 25
+      },
+      {
+        "source_endpoint": "/update",
+        "dependent_endpoint": "/submit",
+        "co_failure_count": 20
+      },
+      {
+        "source_endpoint": "/update",
+        "dependent_endpoint": "/authenticate",
+        "co_failure_count": 16
+      },
+      {
+        "source_endpoint": "/update",
+        "dependent_endpoint": "/delete",
+        "co_failure_count": 18
+      },
+      {
+        "source_endpoint": "/authenticate",
+        "dependent_endpoint": "/fetch",
+        "co_failure_count": 22
+      },
+      {
+        "source_endpoint": "/authenticate",
+        "dependent_endpoint": "/submit",
+        "co_failure_count": 18
+      },
+      {
+        "source_endpoint": "/authenticate",
+        "dependent_endpoint": "/delete",
+        "co_failure_count": 18
+      },
+      {
+        "source_endpoint": "/authenticate",
+        "dependent_endpoint": "/update",
+        "co_failure_count": 16
+      },
+      {
+        "source_endpoint": "/delete",
+        "dependent_endpoint": "/fetch",
+        "co_failure_count": 21
+      },
+      {
+        "source_endpoint": "/delete",
+        "dependent_endpoint": "/submit",
+        "co_failure_count": 16
+      },
+      {
+        "source_endpoint": "/delete",
+        "dependent_endpoint": "/authenticate",
+        "co_failure_count": 18
+      },
+      {
+        "source_endpoint": "/delete",
+        "dependent_endpoint": "/update",
+        "co_failure_count": 18
+      }
+    ]
+  },
+  "insights": [
+    "Unclassified errors account for 24.8% of all failures",
+    "Server Error errors account for 23.8% of all failures",
+    "Identified a group of 1992 requests with consistently high response times (avg: 1032.9ms)",
+    "The slowest endpoint in this group is     POST\nName: 2, dtype: object     /authenticate\nName: 2, dtype: object with average response time of 1107.6ms",
+    "Detected potential dependency: failures on /fetch correlate with failures on /submit (26 co-occurrences)"
+  ],
+  "recommended_actions": [
+    "Review authentication mechanisms and token lifetimes to address authentication failures",
+    "Enhance input validation on the client side before sending requests",
+    "Check server logs for exceptions and consider implementing circuit breakers for unstable services",
+    "Implement more detailed error messages in API responses to better classify unidentified errors",
+    "Analyze API call sequences to identify and fix dependency chains that lead to failures",
+    "Implement health checks and circuit breakers for critical dependencies",
+    "Consider implementing fallback mechanisms for frequently failing dependencies",
+    "Set up automated alerts based on the identified error patterns and thresholds",
+    "Implement comprehensive logging with contextual information for better root cause analysis"
+  ]
+}
