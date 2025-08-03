@@ -33,12 +33,11 @@ An AI-driven, scalable monitoring and anomaly detection system for large-scale d
 - **MongoDB** for structured logging
 
 ### 📈 Visualization & Monitoring
-- **Kibana**, **Grafana**, **Streamlit** dashboards
+- **Kibana**.
 
 ### 🤖 Machine Learning
 - **Isolation Forest, LSTM, Autoencoders**
 - **TensorFlow**, **scikit-learn**
-- **MLflow** for model versioning
 
 
 ## 🔧 Architecture Overview
@@ -54,7 +53,7 @@ An AI-driven, scalable monitoring and anomaly detection system for large-scale d
    → Detected via ML models (Isolation Forest, LSTM, BERT for unknown logs)
 
 4. **Real-Time Monitoring & Alerting**    
-   → Dashboards via Kibana, Grafana
+   → Dashboards via Kibana.
 
 ## 🎥 Demo
 - https://drive.google.com/file/d/1GZNg6zhviRN5gu8I-auiR7ULnyhWvgx7/view?usp=sharing
