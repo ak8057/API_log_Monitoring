@@ -38,9 +38,6 @@ An AI-driven, scalable monitoring and anomaly detection system for large-scale d
 - **TensorFlow**, **scikit-learn**
 - **MLflow** for model versioning
 
-### ⚙️ Deployment
-- **Docker**, **Kubernetes**, **FastAPI**
-- **AWS Lambda** for scalability
 
 ## 🔧 Architecture Overview
 
@@ -54,22 +51,11 @@ An AI-driven, scalable monitoring and anomaly detection system for large-scale d
    → Structured logs converted to datasets  
    → Detected via ML models (Isolation Forest, LSTM, BERT for unknown logs)
 
-4. **Real-Time Monitoring & Alerting**  
-   → Alerts via Prometheus/Email/Slack  
+4. **Real-Time Monitoring & Alerting**    
    → Dashboards via Kibana, Grafana
 
-5. **Continuous Learning Loop**  
-   → Feedback improves model accuracy over time
-
-## 📊 Impact
-- 99.9% API uptime achieved
-- 40% drop in response failures
-- 70% improvement in fraud/anomaly detection
-- 30% faster root cause analysis
-
 ## 🎥 Demo
-- [Working Demo 1](https://drive.google.com/file/d/1D-ewuthfm8MZes7tB7WjdHTKThHdDHb1/view?usp=sharing)
-- [Working Demo 2](https://drive.google.com/file/d/16ME_3w9uLtfkpoVn3vj4BX7OPJAfSvqn/view?usp=sharing)
+- https://drive.google.com/file/d/1GZNg6zhviRN5gu8I-auiR7ULnyhWvgx7/view?usp=sharing
 
 ## 👥 Team VCHAMPS
 - **Abhay Kumar** – RA2311003010980 – ak8057@srmist.edu.in  
