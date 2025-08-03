@@ -9,6 +9,8 @@ APIs are the backbone of modern digital platforms. However, failures, security i
 - Inefficient debugging
 - Missed security breaches
 
+  <img width="696" height="222" alt="Image" src="https://github.com/user-attachments/assets/a27390a3-034f-4281-bbac-8475b2b8161f" />
+
 ## 💡 Our Solution
 An AI-driven, scalable monitoring and anomaly detection system for large-scale distributed platforms that:
 - Monitors API behavior in real-time
@@ -68,8 +70,6 @@ An AI-driven, scalable monitoring and anomaly detection system for large-scale d
 
 > 🏁 **Built with passion at Barclays Hack-O-Hire 2025**
 
-
-<img width="696" height="222" alt="Image" src="https://github.com/user-attachments/assets/a27390a3-034f-4281-bbac-8475b2b8161f" />
 
 
 ![Image](https://github.com/user-attachments/assets/f80c8e63-c0b5-4ddb-97b0-2b615c85b207)
