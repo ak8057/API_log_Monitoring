@@ -1,5 +1,7 @@
 # 🛡️ AI-Powered API Monitoring & Anomaly Detection System
 
+<h2 id="index">📖 Index</h2>
+
 > 🚀 Developed by Team VCHAMPS | Finalists at Barclays Hack-O-Hire 2025 (Generative AI Track)
 
 ## 📌 Problem Statement
@@ -72,3 +74,8 @@ An AI-driven, scalable monitoring and anomaly detection system for large-scale d
 
 
 ![Image](https://github.com/user-attachments/assets/f80c8e63-c0b5-4ddb-97b0-2b615c85b207)
+
+
+<div align="right">
+  <b><a href="#index">↥ Back To Top</a></b>
+</div>
