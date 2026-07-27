@@ -1,90 +1,348 @@
-# 🛡️ AI-Powered API Monitoring & Anomaly Detection System
+# API Log Monitoring
 
-<h2 id="index">📖 Index</h2>
+<p align="center">
+   <strong>FastAPI log generator, offline anomaly analysis, and ELK/Kibana observability demo.</strong>
+</p>
 
-> 🚀 Developed by Team VCHAMPS | Finalists at Barclays Hack-O-Hire 2025 (Generative AI Track)
+<p align="center">
+   <a href="#system-architecture">Architecture</a> ·
+   <a href="#installation">Installation</a> ·
+   <a href="#running-the-project">Run</a> ·
+   <a href="#usage">Usage</a> ·
+   <a href="#future-improvements">Roadmap</a>
+</p>
 
-## 📌 Problem Statement
-APIs are the backbone of modern digital platforms. However, failures, security issues, and performance degradation due to poor monitoring can lead to serious consequences including:
-- Downtime and financial loss
-- Delayed incident response
-- Inefficient debugging
-- Missed security breaches
+## Project Banner
 
-  <img width="696" height="222" alt="Image" src="https://github.com/user-attachments/assets/a27390a3-034f-4281-bbac-8475b2b8161f" />
+API Log Monitoring is a small observability-focused project that generates synthetic API traffic, writes NDJSON logs, analyzes error and latency patterns, and visualizes the results in a React dashboard and Kibana.
 
-## 💡 Our Solution
-An AI-driven, scalable monitoring and anomaly detection system for large-scale distributed platforms that:
-- Monitors API behavior in real-time
-- Detects anomalies using ML (Isolation Forest, LSTM, Autoencoders)
-- Automates alerting and response
-- Visualizes insights using ELK stack & Grafana
+## System Architecture
 
-## 🧠 Key Features
-- ✅ Real-Time Log Monitoring
-- 🔍 ML-Based Anomaly Detection
-- 📊 Interactive Dashboards (Kibana, Grafana)
-- 📬 Automated Alerts (Email/Slack/Prometheus)
-- 🔁 Continuous Learning with Feedback Loop
+```mermaid
+flowchart LR
+   Client[Browser / Requests] --> API[FastAPI app.py]
+   API --> Logs[(dock/logs/api_logs.json)]
+   Logs --> Filebeat[Filebeat]
+   Filebeat --> Logstash[Logstash]
+   Logstash --> ES[Elasticsearch]
+   ES --> Kibana[Kibana dashboards]
+   API --> React[React dashboard]
+   Logs --> Analysis[Python analyzers]
+   Analysis --> Reports[(JSON reports)]
+   Analysis --> Kibana
+```
 
-## 🧰 Tech Stack
+```mermaid
+sequenceDiagram
+   participant U as User or simulator
+   participant A as FastAPI app
+   participant L as NDJSON log file
+   participant F as Filebeat
+   participant S as Logstash
+   participant E as Elasticsearch
+   participant K as Kibana
 
-### 🗂 Log Collection & Processing
-- **Filebeat, Logstash, Kafka** for ingestion
-- **Elasticsearch** for storage
-- **MongoDB** for structured logging
+   U->>A: Call /submit, /update, /delete, /fetch, /authenticate
+   A->>L: Append request and response record
+   F->>L: Tail new log lines
+   F->>S: Forward JSON events
+   S->>E: Index to api-logs
+   K->>E: Query saved objects and dashboards
+```
 
-### 📈 Visualization & Monitoring
-- **Kibana**.
+```mermaid
+flowchart TB
+   subgraph Backend
+      API[FastAPI]
+      Gen[Synthetic endpoints]
+      View[/logs endpoint/]
+   end
 
-### 🤖 Machine Learning
-- **Isolation Forest, LSTM, Autoencoders**
-- **TensorFlow**, **scikit-learn**
+   subgraph Analytics
+      An1[analyze_logs.py]
+      An2[alert_rate_monitor.py]
+      An3[root_cause_analyzer.py]
+      An4[error_rate_alert.py]
+   end
 
+   subgraph Observability
+      FB[Filebeat]
+      LS[Logstash]
+      ES[Elasticsearch]
+      KB[Kibana]
+   end
 
-## 🔧 Architecture Overview
+   subgraph Frontend
+      UI[React dashboard]
+   end
 
-1. **Log Generation & Collection**  
-   → Flask / Node.js apps log data via Filebeat
+   Gen --> API
+   API --> View
+   API -->|writes| Logs[(api_logs.json)]
+   Logs --> FB --> LS --> ES --> KB
+   Logs --> An1 --> R1[(anomaly_report.json)]
+   Logs --> An2 --> R2[(error_rate_report_*.json)]
+   Logs --> An3 --> R3[(api_failure_analysis_*.json)]
+   An4 --> Alerts[Email / Slack / PagerDuty / Telegram]
+   View --> UI
+```
 
-2. **Log Storage & Preprocessing**  
-   → Processed through Logstash → Indexed in Elasticsearch
+```mermaid
+flowchart LR
+   Root[Repository root] --> Dock[dock/]
+   Root --> Frontend[frontend/]
+   Root --> App[app.py]
+   Root --> Analysis[analysis scripts]
+   Root --> Reports[generated JSON reports]
+   Dock --> Beats[Filebeat config]
+   Dock --> LS[Logstash pipeline]
+   Dock --> Data[logs/api_logs.json]
+   Frontend --> Src[src/]
+   Src --> Pages[Pages/]
+   Src --> Components[components/]
+```
 
-3. **ML Feature Extraction & Anomaly Detection**  
-   → Structured logs converted to datasets  
-   → Detected via ML models (Isolation Forest, LSTM, BERT for unknown logs)
+## Project Workflow
 
-4. **Real-Time Monitoring & Alerting**    
-   → Dashboards via Kibana.
+1. Start the FastAPI server in [app.py](app.py) to expose synthetic API routes and the `/logs` endpoint.
+2. Generate traffic manually or with [simulate_requests.py](simulate_requests.py).
+3. Each request is written as a single NDJSON record in [dock/logs/api_logs.json](dock/logs/api_logs.json).
+4. Filebeat tails that file and forwards events to Logstash.
+5. Logstash indexes the events into Elasticsearch.
+6. Kibana uses saved objects from [kibana_dashboard.ndjson](kibana_dashboard.ndjson) to visualize the stream.
+7. Offline analyzers produce JSON reports for anomaly detection, error rates, and root-cause analysis.
+8. The React dashboard polls `/logs` and renders the same log data in a browser UI.
 
-## 🎥 Demo
-- https://drive.google.com/file/d/1GZNg6zhviRN5gu8I-auiR7ULnyhWvgx7/view?usp=sharing
+## Folder Structure
 
-This video provides a demonstration of an anomaly detection application designed for log monitoring. The process flow is as follows:
-**Log Generation** : The process begins by creating scenarios that generate logs live. These logs are saved into a file named api_logs.json.
+```text
+.
+├── app.py
+├── analyze_logs.py
+├── alert_rate_monitor.py
+├── error_rate_alert.py
+├── root_cause_analyzer.py
+├── root_cause_to_kibana.py
+├── kibana_integration.py
+├── anomaly_report_to_kibana.py
+├── simulate_requests.py
+├── alert_config.json
+├── clean_requirements.txt
+├── dock/
+│   ├── docker-compose.yml
+│   ├── filebeat.yml
+│   ├── logs/
+│   │   └── api_logs.json
+│   └── logstash/
+│       └── pipeline/
+│           └── logstash.conf
+├── frontend/
+│   ├── package.json
+│   └── src/
+└── *.json reports
+```
 
-**Machine Learning Analysis** : The saved logs are processed by three machine learning models, which act as APIs within a Flask server. These models analyze the input and append their findings—such as crash probability and spike status—to the data.
+Major folders:
 
-**Data Pipeline** : The logs are retrieved via Filebeat and then ingested into Elasticsearch by way of Logstash.
+- [dock/](dock/) contains the local ELK stack and the sample log sink.
+- [frontend/](frontend/) contains the React dashboard built with Vite.
+- The repository root contains the FastAPI app, offline analysis scripts, and generated reports.
 
-**Visualization** : Data is displayed in Kibana, where an interface and dashboard have been established to visualize various metrics, such as record counts and response times. This includes graphs depicting the machine learning model outputs, such as pie charts showing current spike statuses.
+## Installation
 
-## 👥 Team VCHAMPS
-- **Abhay Kumar** – RA2311003010980 – ak8057@srmist.edu.in  
-- **Akshit Bhatt** – RA2311003010979 – ab3675@srmist.edu.in  
-- **Akshat Baranwal** – RA2311003010956 – ab6043@srmist.edu.in  
-- **Vishnu Gupta** – RA2311003010926 – vg0832@srmist.edu.in  
-- **Aarshiya Das** – RA2311003010938 – ad1445@srmist.edu.in  
+### Python backend
 
----
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r clean_requirements.txt
+```
 
-> 🏁 **Built with passion at Barclays Hack-O-Hire 2025**
+### Frontend
 
+```bash
+cd frontend
+npm install
+```
 
+### Docker observability stack
 
-![Image](https://github.com/user-attachments/assets/f80c8e63-c0b5-4ddb-97b0-2b615c85b207)
+Install Docker Desktop and ensure the following ports are available: 8000, 5044, 5601, and 9200.
 
+## Configuration
 
-<div align="right">
-  <b><a href="#index">↥ Back To Top</a></b>
-</div>
+### [alert_config.json](alert_config.json)
+
+Controls notification channels for the alerting script. The checked-in file should be treated as a sample; replace SMTP passwords, webhook URLs, and chat IDs with environment-backed secrets before real use.
+
+### [dock/filebeat.yml](dock/filebeat.yml)
+
+Configures Filebeat to tail [dock/logs/api_logs.json](dock/logs/api_logs.json), parse each line as JSON, and forward events to Logstash.
+
+### [dock/logstash/pipeline/logstash.conf](dock/logstash/pipeline/logstash.conf)
+
+Defines the Beats input and Elasticsearch output for the ingest pipeline. The current output index is `api-logs`.
+
+### [dock/docker-compose.yml](dock/docker-compose.yml)
+
+Defines Elasticsearch, Kibana, Logstash, and Filebeat services plus the environment variables used to bootstrap the local stack.
+
+### Environment variables
+
+- `ENVIRONMENT` is read by [app.py](app.py) and stored in each log record.
+- `ES_LOCAL_PASSWORD` is used by the Kibana integration scripts and Docker stack.
+- `KIBANA_LOCAL_PASSWORD` and `KIBANA_ENCRYPTION_KEY` are required by the Docker stack.
+
+## Running the Project
+
+### Development
+
+```bash
+source .venv/bin/activate
+uvicorn app:app --reload --host 127.0.0.1 --port 8000
+```
+
+In a second terminal:
+
+```bash
+cd frontend
+npm run dev
+```
+
+### Production-style execution
+
+```bash
+source .venv/bin/activate
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+### Docker
+
+```bash
+cd dock
+docker compose up -d
+```
+
+### Testing and analysis
+
+```bash
+source .venv/bin/activate
+python analyze_logs.py
+python alert_rate_monitor.py
+python error_rate_alert.py
+python root_cause_to_kibana.py --analyze-only
+python anomaly_report_to_kibana.py
+```
+
+### Examples
+
+Generate traffic:
+
+```bash
+source .venv/bin/activate
+python simulate_requests.py
+```
+
+Fetch log data:
+
+```bash
+curl http://127.0.0.1:8000/logs
+```
+
+## Usage
+
+Start the backend, generate a small amount of traffic, and open the React dashboard at the Vite dev server. The page will show total requests, success rate, average response time, error count, anomaly cards, a recent logs table, and multiple charts derived from live log records.
+
+The synthetic endpoints are intended for observability demos only:
+
+- `/submit`
+- `/update`
+- `/delete`
+- `/fetch`
+- `/authenticate`
+- `/logs`
+
+Example request:
+
+```bash
+curl -X POST http://127.0.0.1:8000/submit \
+   -H 'Content-Type: application/json' \
+   -d '{"name":"Alice","value":42}'
+```
+
+Example response:
+
+```json
+{
+  "status": "success",
+  "data": {
+    "name": "Alice",
+    "value": 42
+  }
+}
+```
+
+## API Documentation
+
+### `GET /logs`
+
+Returns the parsed NDJSON log stream as JSON.
+
+Example response fields:
+
+- `timestamp`
+- `method`
+- `endpoint`
+- `url`
+- `headers`
+- `request_body`
+- `response_body`
+- `status_code`
+- `environment`
+- `response_time_ms`
+
+### Synthetic routes
+
+Each of the synthetic routes accepts GET, POST, PUT, and DELETE. The handler randomly returns 2xx, 4xx, or 5xx responses, then logs the request and response metadata.
+
+## Model / Algorithm Explanation
+
+This repository does not train a large ML model end to end. The analysis layer is a mix of pandas-based aggregation, rule-based anomaly detection, and classical clustering.
+
+- [analyze_logs.py](analyze_logs.py) builds a lightweight anomaly report using response-time, error-pattern, and traffic heuristics.
+- [alert_rate_monitor.py](alert_rate_monitor.py) computes error rates by endpoint, method, and environment.
+- [root_cause_analyzer.py](root_cause_analyzer.py) applies pattern matching, DBSCAN clustering, and time-based heuristics to infer likely failure causes.
+- [kibana_integration.py](kibana_integration.py) converts those findings into Elasticsearch documents and Kibana-ready saved objects.
+
+## Technology Stack
+
+| Area              | Technologies                                      |
+| ----------------- | ------------------------------------------------- |
+| Backend           | FastAPI, Uvicorn, Python, dotenv                  |
+| Data analysis     | pandas, numpy, scikit-learn, requests             |
+| Frontend          | React, Vite, Recharts, Lucide React, Tailwind CSS |
+| Observability     | Elasticsearch, Kibana, Logstash, Filebeat         |
+| Runtime packaging | Docker, Docker Compose                            |
+
+## Screenshots
+
+Capture these once the README is finalized:
+
+- React dashboard landing view with summary cards and the traffic chart.
+- Recent API logs table with several rows of generated traffic.
+- Anomaly detection panel showing at least one high-severity item.
+- Kibana dashboard panels for error distribution, response times, and insights.
+- Docker Compose terminal or container list showing the ELK services running.
+
+## Future Improvements
+
+- Replace hardcoded local paths with a shared configuration layer.
+- Move generated JSON reports out of the repository root.
+- Add tests for the FastAPI routes and analysis scripts.
+- Unify the naming drift between the monitor and alert scripts.
+- Externalize secrets in `alert_config.json` into environment variables.
+- Align the Logstash index name with the Kibana dashboard export or add an alias step.
+
+## Historical Context
+
+This project originated as a hackathon prototype. The codebase has been modernized in documentation terms so the repository now reflects the real runtime stack, current folder structure, and the demo-oriented observability workflow.
