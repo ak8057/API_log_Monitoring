@@ -60,6 +60,12 @@ An AI-driven, scalable monitoring and anomaly detection system for large-scale d
 ## 🎥 Demo
 - https://drive.google.com/file/d/1GZNg6zhviRN5gu8I-auiR7ULnyhWvgx7/view?usp=sharing
 
+This video provides a demonstration of an anomaly detection application designed for log monitoring. The process flow is as follows:
+**Log Generation** : The process begins by creating scenarios that generate logs live. These logs are saved into a file named api_logs.json.
+**Machine Learning Analysis** : The saved logs are processed by three machine learning models, which act as APIs within a Flask server. These models analyze the input and append their findings—such as crash probability and spike status—to the data.
+**Data Pipeline** : The logs are retrieved via Filebeat and then ingested into Elasticsearch by way of Logstash.
+**Visualization** : Data is displayed in Kibana, where an interface and dashboard have been established to visualize various metrics, such as record counts and response times. This includes graphs depicting the machine learning model outputs, such as pie charts showing current spike statuses.
+
 ## 👥 Team VCHAMPS
 - **Abhay Kumar** – RA2311003010980 – ak8057@srmist.edu.in  
 - **Akshit Bhatt** – RA2311003010979 – ab3675@srmist.edu.in  
