@@ -177,6 +177,7 @@ cython_debug/
 # Project-specific generated artifacts
 __pycache__/
 myenv/
+BarclayHackathonVchamps/
 BarclayHackathonVchamps/.env
 BarclayHackathonVchamps/FinalMlLogs/
 BarclayHackathonVchamps/logs/
