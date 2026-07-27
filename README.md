@@ -1,5 +1,7 @@
 # API Log Monitoring
 
+
+
 <p align="center">
    <strong>FastAPI log generator, offline anomaly analysis, and ELK/Kibana observability demo.</strong>
 </p>
@@ -15,6 +17,56 @@
 ## Project Banner
 
 API Log Monitoring is a small observability-focused project that generates synthetic API traffic, writes NDJSON logs, analyzes error and latency patterns, and visualizes the results in a React dashboard and Kibana.
+
+## 🎥 Demo
+- https://drive.google.com/file/d/1GZNg6zhviRN5gu8I-auiR7ULnyhWvgx7/view?usp=sharing
+
+This video provides a demonstration of an anomaly detection application designed for log monitoring. The process flow is as follows:
+**Log Generation** : The process begins by creating scenarios that generate logs live. These logs are saved into a file named api_logs.json.
+
+**Machine Learning Analysis** : The saved logs are processed by three machine learning models, which act as APIs within a Flask server. These models analyze the input and append their findings—such as crash probability and spike status—to the data.
+
+**Data Pipeline** : The logs are retrieved via Filebeat and then ingested into Elasticsearch by way of Logstash.
+
+**Visualization** : Data is displayed in Kibana, where an interface and dashboard have been established to visualize various metrics, such as record counts and response times. This includes graphs depicting the machine learning model outputs, such as pie charts showing current spike statuses.
+
+## 📌 Problem Statement
+APIs are the backbone of modern digital platforms. However, failures, security issues, and performance degradation due to poor monitoring can lead to serious consequences including:
+- Downtime and financial loss
+- Delayed incident response
+- Inefficient debugging
+- Missed security breaches
+
+  <img width="696" height="222" alt="Image" src="https://github.com/user-attachments/assets/a27390a3-034f-4281-bbac-8475b2b8161f" />
+
+## 💡 Our Solution
+An AI-driven, scalable monitoring and anomaly detection system for large-scale distributed platforms that:
+- Monitors API behavior in real-time
+- Detects anomalies using ML (Isolation Forest, LSTM, Autoencoders)
+- Automates alerting and response
+- Visualizes insights using ELK stack & Grafana
+
+## 🧠 Key Features
+- ✅ Real-Time Log Monitoring
+- 🔍 ML-Based Anomaly Detection
+- 📊 Interactive Dashboards (Kibana, Grafana)
+- 📬 Automated Alerts (Email/Slack/Prometheus)
+- 🔁 Continuous Learning with Feedback Loop
+
+## 🧰 Tech Stack
+
+### 🗂 Log Collection & Processing
+- **Filebeat, Logstash, Kafka** for ingestion
+- **Elasticsearch** for storage
+- **MongoDB** for structured logging
+
+### 📈 Visualization & Monitoring
+- **Kibana**.
+
+### 🤖 Machine Learning
+- **Isolation Forest, LSTM, Autoencoders**
+- **TensorFlow**, **scikit-learn**
+
 
 ## System Architecture
 
