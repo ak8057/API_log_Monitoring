@@ -139,6 +139,11 @@ flowchart LR
 ├── frontend/
 │   ├── package.json
 │   └── src/
+├── services/
+│   └── ml_inference/
+│       ├── app.py
+│       ├── README.md
+│       └── requirements.txt
 └── *.json reports
 ```
 
@@ -146,6 +151,7 @@ Major folders:
 
 - [dock/](dock/) contains the local ELK stack and the sample log sink.
 - [frontend/](frontend/) contains the React dashboard built with Vite.
+- [services/ml_inference/](services/ml_inference/) contains the optional ML scoring service extracted from the cloned repository.
 - The repository root contains the FastAPI app, offline analysis scripts, and generated reports.
 
 ## Installation
@@ -168,6 +174,15 @@ npm install
 ### Docker observability stack
 
 Install Docker Desktop and ensure the following ports are available: 8000, 5044, 5601, and 9200.
+
+### Optional ML service
+
+```bash
+cd services/ml_inference
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## Configuration
 
@@ -192,6 +207,9 @@ Defines Elasticsearch, Kibana, Logstash, and Filebeat services plus the environm
 - `ENVIRONMENT` is read by [app.py](app.py) and stored in each log record.
 - `ES_LOCAL_PASSWORD` is used by the Kibana integration scripts and Docker stack.
 - `KIBANA_LOCAL_PASSWORD` and `KIBANA_ENCRYPTION_KEY` are required by the Docker stack.
+- `ENABLE_ML_SERVICE` enables the optional ML callback in [app.py](app.py).
+- `ML_SERVICE_URL` points to the optional Flask service at `services/ml_inference/app.py`.
+- `ML_LOG_FILE`, `ML_MODEL_DIR`, `ES_HOST`, `ES_USERNAME`, `ES_PASSWORD`, and `ML_SERVICE_PORT` configure the extracted ML service.
 
 ## Running the Project
 
@@ -233,6 +251,16 @@ python error_rate_alert.py
 python root_cause_to_kibana.py --analyze-only
 python anomaly_report_to_kibana.py
 ```
+
+### ML service
+
+```bash
+cd services/ml_inference
+source .venv/bin/activate
+python app.py
+```
+
+Enable it from the root app with `ENABLE_ML_SERVICE=true` once the service is running.
 
 ### Examples
 
@@ -313,6 +341,7 @@ This repository does not train a large ML model end to end. The analysis layer i
 - [alert_rate_monitor.py](alert_rate_monitor.py) computes error rates by endpoint, method, and environment.
 - [root_cause_analyzer.py](root_cause_analyzer.py) applies pattern matching, DBSCAN clustering, and time-based heuristics to infer likely failure causes.
 - [kibana_integration.py](kibana_integration.py) converts those findings into Elasticsearch documents and Kibana-ready saved objects.
+- [services/ml_inference/app.py](services/ml_inference/app.py) is the optional ML scoring service extracted from the cloned repo and normalized for environment-based configuration.
 
 ## Technology Stack
 

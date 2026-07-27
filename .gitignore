@@ -173,3 +173,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project-specific generated artifacts
+__pycache__/
+myenv/
+BarclayHackathonVchamps/.env
+BarclayHackathonVchamps/FinalMlLogs/
+BarclayHackathonVchamps/logs/
+BarclayHackathonVchamps/*.h5
+BarclayHackathonVchamps/*.save
+BarclayHackathonVchamps/*.pkl
+BarclayHackathonVchamps/*.joblib
+BarclayHackathonVchamps/*.log

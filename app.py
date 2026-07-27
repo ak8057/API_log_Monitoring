@@ -8,6 +8,8 @@ import random
 import time
 from datetime import datetime
 import os
+import requests
+from pathlib import Path
 
 app = FastAPI()
 
@@ -15,6 +17,17 @@ app = FastAPI()
 load_dotenv()
 
 ENVIRONMENT = os.getenv("ENVIRONMENT", "unknown")
+LOG_DIR = os.getenv("LOG_DIR", "dock/logs")
+ML_SERVICE_URL = os.getenv("ML_SERVICE_URL", "http://localhost:5000/predict")
+ENABLE_ML_SERVICE = os.getenv("ENABLE_ML_SERVICE", "false").lower() == "true"
+
+Path(LOG_DIR).mkdir(parents=True, exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+)
+logger = logging.getLogger(__name__)
 
 # CORS
 app.add_middleware(
@@ -25,7 +38,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-log_file = "/Users/abhaykumar/codeit/projects/Machine_Learning/API_LOG/dock/logs/api_logs.json"
+log_file = os.path.join(LOG_DIR, "api_logs.json")
 
 # Ensure log file exists
 if not os.path.exists(log_file):
@@ -66,6 +79,16 @@ async def log_request_response(request: Request, response_data, status_code, res
     # Write log as a single NDJSON line
     with open(log_file, "a") as f:
         f.write(json.dumps(log_entry) + "\n")
+
+    if ENABLE_ML_SERVICE:
+        try:
+            requests.post(
+                ML_SERVICE_URL,
+                json={"source_type": "json_data", "logs": [log_entry]},
+                timeout=5,
+            )
+        except requests.exceptions.RequestException as req_error:
+            logger.warning(f"ML service unavailable: {req_error}")
 
 # Dynamic behavior handler
 async def handle_request(request: Request):
