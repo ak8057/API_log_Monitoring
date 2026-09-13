@@ -407,8 +407,6 @@ This repository does not train a large ML model end to end. The analysis layer i
 
 ## Screenshots
 
-Capture these once the README is finalized:
-
 - React dashboard landing view with summary cards and the traffic chart.
 - Recent API logs table with several rows of generated traffic.
 - Anomaly detection panel showing at least one high-severity item.
@@ -423,7 +421,3 @@ Capture these once the README is finalized:
 - Unify the naming drift between the monitor and alert scripts.
 - Externalize secrets in `alert_config.json` into environment variables.
 - Align the Logstash index name with the Kibana dashboard export or add an alias step.
-
-## Historical Context
-
-This project originated as a hackathon prototype. The codebase has been modernized in documentation terms so the repository now reflects the real runtime stack, current folder structure, and the demo-oriented observability workflow.
